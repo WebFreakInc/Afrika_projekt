@@ -6,7 +6,7 @@
 
           <!--- NAV LOGO START --->
           <a class="navbar-brand" href="index.php">
-              <h1 style="color:orangered; display:inline;">STØT</h1><h1 style='display:inline;'>AFTIKA</h1>
+              <h1 style="color:orangered; display:inline;">STØT</h1><h1 style='display:inline;'>AFRIKA</h1>
                
           </a>
           <!--- NAV LOGO END --->

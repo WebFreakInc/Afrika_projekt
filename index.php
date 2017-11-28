@@ -38,29 +38,31 @@
 
     <!--TWITCH EMBEDDED-->
     <section id="livestream" class="container">
-        
-           <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-embed"></div>
 
-    <!-- Load the Twitch embed script -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+ <!-- https://dev.twitch.tv/docs/embed -->
 
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
-        channel: "monstercat"
-      });
-    </script>
+        <!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed"></div>
+
+        <!-- Load the Twitch embed script -->
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+        <script type="text/javascript">
+            new Twitch.Embed("twitch-embed", {
+                width: 854,
+                height: 480,
+                channel: "monstercat"
+            });
+        </script>
 
     </section>
 
     <!--DONATIONS-->
     <section class="container-fluid">
-        
+
         <?php include('assets/incl/donatesliders.php'); ?> 
-        
+
     </section>
 
 
