@@ -19,28 +19,21 @@
     </section>
 
 
-    <!--INFO TEXT-->
-    <section class='container'>
-        <div class='col-6'></div>
-
-        <div class='col-6'></div>
-
-    </section>
-
-
-    <!--PRODUCTS-->
-    <section class="container">
-
-        <h1>isotopes?</h1>
-
-    </section>
+ 
+<!--SPONSORERE GALLERI-->
+<section class="container-fluid">
+    <h1>LOGO OG NAVN</h1>
+    
+    
+</section>
 
 
-    <!--TWITCH EMBEDDED-->
-    <section id="livestream" class="container">
-        <h1>twitch stream</h1>
-
-    </section>
+    
+    
+    
+    
+    
+    
 
     <!--DONATIONS-->
     <section class="container-fluid">
@@ -65,6 +58,4 @@
 
 
 </body>
-
-
 
