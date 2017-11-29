@@ -1,6 +1,6 @@
 <!-- Vi skal have en user table, info omkring password bliver lagt i projektinformation -->
 <?php
-require("assets/incl/dbinfo.php");
+require("assets/incl/dbinfo.php"); // WE NEED THIS TO POINT TO OUR DB :)
 
 session_start(); // Start session
 
@@ -21,7 +21,6 @@ if(isset($_POST["submit"])){ // Check if username and password is set
           echo("Wrong username/password"); // Give error if not matched
         } elseif($hashedPwdCheck == true) {
           // Here we redirect to a admin panel site because password hash matches with input
-                
         }
       }
     }
