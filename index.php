@@ -39,7 +39,7 @@
     <!--TWITCH EMBEDDED-->
     <section id="livestream" class="container">
 
- <!-- https://dev.twitch.tv/docs/embed -->
+        <!-- https://dev.twitch.tv/docs/embed -->
 
         <!-- Add a placeholder for the Twitch embed -->
         <div id="twitch-embed"></div>
@@ -74,11 +74,8 @@
 
     </footer>
 
-
-
-
-
-
+    <!--JAVASCRIPTS-->
+    <?php include('assets/incl/footjs.php'); ?> 
 
 </body>
 

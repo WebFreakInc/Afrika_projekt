@@ -51,11 +51,8 @@
 
     </footer>
 
-
-
-
-
-
+    <!--JAVASCRIPTS-->
+    <?php include('assets/incl/footjs.php'); ?> 
 
 </body>
 
