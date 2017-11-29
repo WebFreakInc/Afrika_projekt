@@ -4,8 +4,7 @@
 
     <!--HERO IMAGE MED LOGO-->
     <picture>
-        <source href="#">
-        <img href="#" alt="Anja-Lovén-med-heksebørn">
+        <img href="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
     </picture>
 
 
