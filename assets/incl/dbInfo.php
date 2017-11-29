@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 /*if (!isset($movieSelect)) {
     $movieSelect = 1;
 }*/

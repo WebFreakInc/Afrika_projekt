@@ -3,7 +3,7 @@
 
 
     <!--HERO IMAGE MED LOGO-->
-    <picture>
+    <picture class="container">
         <img href="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
     </picture>
 

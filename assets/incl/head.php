@@ -22,5 +22,5 @@
     <!-- BODY START -->
     <body>
         <header>
-            <?php include('assets/incl/navbar.php'); ?>
+            <?php include('navbar.php'); ?>
         </header>
