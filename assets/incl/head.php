@@ -18,3 +18,9 @@
         <!-- STYLE -->
         <link href="assets/css/master.css" rel="stylesheet">
     </head>
+
+    <!-- BODY START -->
+    <body>
+        <header>
+            <?php include('assets/incl/navbar.php'); ?>
+        </header>

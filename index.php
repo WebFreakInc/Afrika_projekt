@@ -1,21 +1,17 @@
-<!DOCTYPE html>
+<!-- HEAD, HEADER & BODY (start) -->
 <?php include('assets/incl/head.php'); ?>
 
-<body style="background-color:#DABCA0;">
-
-    <!--NAVBAR-->
-    <header>
-        <?php include('assets/incl/navbar.php'); ?>  
-    </header>
 
     <!--HERO IMAGE MED LOGO-->
-
+    <picture>
+        <source href="#">
+        <img href="#" alt="Anja-Lovén-med-heksebørn">
+    </picture>
 
 
     <!--TOTAL ACCUMULATED-->
     <section class="container-fluid">
         50000 kr
-
     </section>
 
 
@@ -38,7 +34,7 @@
 
     <!--TWITCH EMBEDDED-->
     <section id="livestream" class="container">
-
+        <h2>Følg os Live</h2>
         <!-- https://dev.twitch.tv/docs/embed -->
 
         <!-- Add a placeholder for the Twitch embed -->
@@ -61,23 +57,16 @@
     <!--DONATIONS-->
     <section class="container-fluid">
 
-        <?php include('assets/incl/donatesliders.php'); ?> 
+        <?php include('assets/incl/donateSliders.php'); ?>
 
     </section>
 
 
 
 
-    <!--FOOTER CONTACT-->
-    <footer class="container-fluid">
+    <!--FOOTER, JAVASCRIPT & BODY (end)-->
         <?php include('assets/incl/footer.php'); ?> 
 
-    </footer>
-
-    <!--JAVASCRIPTS-->
-    <?php include('assets/incl/footjs.php'); ?> 
-
-</body>
 
 
 

@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e075e43-9757-427a-b2dc-35714b025766" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/01399c57d9922c4a3e3586c3943d14fee61978a5/master.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/348ce2132aa51d45af5e98220a779d35255afc5b/_colors.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/348ce2132aa51d45af5e98220a779d35255afc5b/_mixins.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/4e8fcbe6e4e30018521af4d271a14517ce4bfabd/_header.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/72f041349129d4a54cae92732938525ed38bef75/_header.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/afa96a64af2eec6640d3f0be152ff0b744b25f62/_colors.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/d1e021b84fa55bc76edcb5ac82390a7ae05ee795/master.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/d27309f4f78fd5389d2fec6a849f3ce5cb6c858c/_colors.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/d27309f4f78fd5389d2fec6a849f3ce5cb6c858c/_mixins.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/f5a195af73c954e09de0cbb876a11be259ab8cac/master.sassc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/incl/donatesliders.php" afterPath="$PROJECT_DIR$/assets/incl/donateSliders.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/produkter.php" afterPath="$PROJECT_DIR$/products.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sponsorere.php" afterPath="$PROJECT_DIR$/sponsors.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/incl/footer.php" afterPath="$PROJECT_DIR$/assets/incl/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/incl/footjs.php" afterPath="$PROJECT_DIR$/assets/incl/footjs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/incl/head.php" afterPath="$PROJECT_DIR$/assets/incl/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,22 +47,57 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/incl/head.php">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+                <state relative-caret-position="60">
+                  <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.php">
+          <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/incl/head.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-455">
-                  <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+                <state relative-caret-position="520">
+                  <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footjs.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/incl/footjs.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="20">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/incl/footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="20">
+                  <caret line="1" column="80" lean-forward="false" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+                  <folding>
+                    <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dbInfo.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/incl/dbInfo.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#7#62#0#PHP" expanded="true" />
+                    <marker date="1511950656325" expanded="true" signature="479:501" ph="SELECT * FRO... products" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -49,7 +106,7 @@
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="140">
-                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -69,12 +126,16 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../../../saftens-bekaempelse/index.html">
+          <file leaf-file-name="updateRating.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../../../CinePhile/assets/includes/updateRating.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
-                  <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-                  <folding />
+                <state relative-caret-position="720">
+                  <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+                  <folding>
+                    <marker date="1510909016064" expanded="true" signature="206:281" ph="SELECT * FRO... user_rating" />
+                    <marker date="1510909016064" expanded="true" signature="633:732" ph="UPDATE user_... " />
+                    <marker date="1510909016064" expanded="true" signature="1035:1134" ph="INSERT INTO user_rating... " />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -92,10 +153,14 @@
         <option value="$PROJECT_DIR$/assets/sass/master.sass" />
         <option value="$PROJECT_DIR$/assets/sass/vars/_mixins.sass" />
         <option value="$PROJECT_DIR$/assets/sass/comps/_header.sass" />
-        <option value="$PROJECT_DIR$/assets/incl/head.php" />
         <option value="$PROJECT_DIR$/assets/sass/vars/_colors.sass" />
         <option value="$PROJECT_DIR$/assets/css/master.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/assets/incl/dbInfo.php" />
+        <option value="$PROJECT_DIR$/assets/incl/footjs.php" />
+        <option value="$PROJECT_DIR$/assets/incl/footer.php" />
+        <option value="$PROJECT_DIR$/assets/incl/head.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -143,19 +208,6 @@
               <item name="Afrika_projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afrika_projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Afrika_projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Afrika_projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="master.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="Afrika_projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Afrika_projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="incl" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -163,20 +215,6 @@
               <item name="Afrika_projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Afrika_projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Afrika_projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="comps" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Afrika_projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Afrika_projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vars" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -214,12 +252,12 @@
       <updated>1511877346363</updated>
       <workItem from="1511877347909" duration="966000" />
       <workItem from="1511943912161" duration="290000" />
-      <workItem from="1511947542537" duration="2311000" />
+      <workItem from="1511947542537" duration="3940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3567000" />
+    <option name="totallyTimeSpent" value="5196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -377,22 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/comps/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/incl/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../CinePhile/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -409,18 +431,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/incl/dbInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#62#0#PHP" expanded="true" />
+            <marker date="1511950656325" expanded="true" signature="479:501" ph="SELECT * FRO... products" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/comps/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CinePhile/assets/includes/updateRating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <marker date="1510909016064" expanded="true" signature="206:281" ph="SELECT * FRO... user_rating" />
+            <marker date="1510909016064" expanded="true" signature="633:732" ph="UPDATE user_... " />
+            <marker date="1510909016064" expanded="true" signature="1035:1134" ph="INSERT INTO user_rating... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/incl/footjs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/incl/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="80" lean-forward="false" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/incl/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

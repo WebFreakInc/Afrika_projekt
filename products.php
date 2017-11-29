@@ -32,7 +32,7 @@
     <!--DONATIONS-->
     <section class="container-fluid">
         
-        <?php include('assets/incl/donatesliders.php'); ?> 
+        <?php include('assets/incl/donateSliders.php'); ?>
         
     </section>
 
