@@ -1,6 +1,6 @@
 <?php
-session_start()
-require '../head.php';
+session_start();
+require'../head.php';
 
 if (!isset($loggedIn)) {
     header('location: ../../admin.php');
