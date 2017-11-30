@@ -1,23 +1,23 @@
 <?php
-session_start()
-require '../head.php';
+session_start();
+require 'incl/adminHead.php';
 
-if (!isset($loggedIn)) {
-    header('location: ../../admin.php');
+if (!isset($_SESSION['loggedIn'])) {
+    header('location: ../../../admin.php');
 }
 ?>
-<form method="post" action="addProduct.php">
+<form method="post" action="addProduct.php" class="col-md-3 mx-auto">
     <div>
         <label>Varens Nummer</label>
-        <input type="number" name="id" placeholder="Varens Nummer">
+        <input required type="number" name="id" placeholder="Varens Nummer" class="form-control">
     </div>
     <div>
         <label>Varens Salgs Pris</label>
-        <input type="number" name="price" placeholder="Pris">
+        <input required type="number" name="price" placeholder="Pris" class="form-control">
     </div>
     <div>
         <label>Antal Der Er Solgt</label>
-        <input type="number" name="sold" placeholder="Antal Solgt">
+        <input required type="number" name="sold" placeholder="Antal Solgt" class="form-control">
     </div>
-    <!-- INDSÆT UPLOAD AF LOGO HER -->
+    <button type="submit" class="btn btn-primary">Register Salg</button>
 </form>
