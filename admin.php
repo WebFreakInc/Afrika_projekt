@@ -65,15 +65,14 @@ if (isset($_SESSION['loggedIn'])) {
 
 
     <section class="col-md-4 mx-auto">
-        <form method="post" action="assets/incl/admin/donation.php">
-         <button type="submit" class="btn btn-secondary">Indsæt Donation</button>
-        </form>
+        <h4>Sponsore</h4>
         <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Indsæt Sponsor</a>
         <h4>Produkter</h4>
-        <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Indsæt Produkt</a>
+        <a href="assets/incl/admin/product.php" class="btn btn-secondary">Indsæt Produkt</a>
         </br>
-        <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Produkt Solgt</a>
+        <a href="assets/incl/admin/productSold.php" class="btn btn-secondary">Produkt Solgt</a>
         </br>
+        <h4>Logout</h4>
         <form method="post">
             <button type="submit" class="btn btn-secondary" name="logout">Log Ud</button>
         </form>

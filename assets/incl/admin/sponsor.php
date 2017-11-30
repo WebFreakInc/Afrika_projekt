@@ -8,7 +8,7 @@ if (!isset($_SESSION['loggedIn'])) {
 ?>
 
 
-    <form method="post" action="addSponsor.php.php" class="col-md-3 mx-auto">
+    <form method="post" action="addSponsor.php" class="col-md-3 mx-auto">
 
         <div class="form-group">
             <label>Firma Navn</label>
@@ -19,8 +19,8 @@ if (!isset($_SESSION['loggedIn'])) {
             <input required type="text" name="sponsorDonation" placeholder="Donation" class="form-control">
         </div>
         <div class="form-group">
-            <label>Kommentar</label>
-            <input required type="text" name="sponsorComment" placeholder="Kommentar" class="form-control">
+            <label>Link til deres side</label>
+            <input required type="text" name="sponsorLink" placeholder="URL" class="form-control">
         </div>
 
         <!-- INDSÆT UPLOAD AF LOGO HER -->
