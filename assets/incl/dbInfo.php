@@ -27,3 +27,7 @@ $productsQuery = "SELECT * FROM products";
 $productsResult = $dbConnect ->query($productsQuery);
 $productsRow = $productsResult->fetch_assoc();
 
+//CATEGORY SELECTION
+$categoryQuery = "SELECT * FROM categories";
+$categoryResult = $dbConnect ->query($categoryQuery);
+

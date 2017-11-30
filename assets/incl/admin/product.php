@@ -1,6 +1,7 @@
 <?php
 session_start();
 require 'incl/adminHead.php';
+require '../dbInfo.php';
 
 if (!isset($_SESSION['loggedIn'])) {
     header('location: ../../../admin.php');
@@ -29,7 +30,11 @@ if (!isset($_SESSION['loggedIn'])) {
     </div>
     <div>
         <label>Varens Kategori</label>
-        <input required type="checkbox" name="productCategory" class="form-control">
+        <select required name="productCategory" class="form-control">
+            <?php while ($categoryRow = $categoryResult->fetch_assoc()) : ?>
+                <option><?=$categoryRow['category']?></option>
+            <?php endwhile; ?>
+        </select>
     </div>
             <!-- INDSÆT UPLOAD AF BILLEDE HER -->
 
