@@ -2,14 +2,14 @@
 <?php
 require("assets/incl/dbinfo.php"); // WE NEED THIS TO POINT TO OUR DB :)
 
-session_start(); // Start session
+//session_start(); // Start session
 
 if(isset($_POST["submit"])){ // Check if username and password is set
   $username = validateData($_POST["username"]); // Validate input
   $password = validateData($_POST["password"]); // Validate input
   $query = "SELECT * from users WHERE username = '$username'";
   // $result = $dbConn -> query($query);
-  $result = mysqli_query($dbConn, $query);
+  $result = mysqli_query($dbConnect, $query);
   $resultCheck = mysqli_num_rows($result); // Return number of rows in our result
   if ($resultCheck < 1) { // We check for errors
     echo('Fejl'); // Output error without telling to much
@@ -20,7 +20,7 @@ if(isset($_POST["submit"])){ // Check if username and password is set
         if ($hashedPwdCheck == false) {
           echo("Wrong username/password"); // Give error if not matched
         } elseif($hashedPwdCheck == true) {
-          // Here we redirect to a admin panel site because password hash matches with input
+          $_POST['loggedIn'] = true;
         }
       }
     }
@@ -56,11 +56,11 @@ return $data;
       <form class="col-lg-5 mx-auto" method="POST" action="">
         <div class="form-group">
           <label for="username">Username</label>
-          <input type="text" class="form-control" name="username" id="username" placeholder="Username">
+          <input required type="text" class="form-control" name="username" id="username" placeholder="Username">
         </div>
         <div class="form-group">
           <label for="password">Password</label>
-          <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+          <input required type="password" name="password" class="form-control" id="password" placeholder="Password">
         </div>
         <button type="submit" name="submit" class="btn btn-primary float-right">Login</button>
       </form>

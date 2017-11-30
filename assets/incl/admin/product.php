@@ -1,35 +1,42 @@
 <?php
 session_start();
-require '../head.php';
+require 'incl/adminHead.php';
 
-if (!isset($loggedIn)) {
-    header('location: ../../admin.php');
+if (!isset($_SESSION['loggedIn'])) {
+    header('location: ../../../admin.php');
 }
 ?>
-<form method="post" action="addProduct.php">
+<form method="post" action="addProduct.php" class="col-md-3 mx-auto">
     <div>
         <label>Varens Navn</label>
-        <input type="text" name="name" placeholder="Varens Navn">
+        <input required type="text" name="productName" placeholder="Varens Navn" class="form-control">
     </div>
     <div>
         <label>Varens Nummer</label>
-        <input type="number" name="id" placeholder="Varens Nummer">
+        <input required type="number" name="productId" placeholder="Varens Nummer" class="form-control">
     </div>
     <div>
         <label>Varens Pris</label>
-        <input type="number" name="price" placeholder="Pris">
+        <input required type="number" name="productPrice" placeholder="Pris" class="form-control">
     </div>
     <div>
         <label>Antal Der Er</label>
-        <input type="number" name="amount" placeholder="Antal">
+        <input required type="number" name="productAmount" placeholder="Antal" class="form-control">
     </div>
     <div>
         <label>Varens Beskrivelse</label>
-        <input type="text" name="description" placeholder="Varens Beskrivelse">
+        <input required type="text" name="productDescription" placeholder="Varens Beskrivelse" class="form-control">
     </div>
     <div>
         <label>Varens Kategori</label>
-        <input type="checkbox" name="category">
+        <input required type="checkbox" name="productCategory" class="form-control">
     </div>
-            <!-- INDSÆT UPLOAD AF LOGO HER -->
+            <!-- INDSÆT UPLOAD AF BILLEDE HER -->
+
+
+    <button type="submit" class="btn btn-primary">Indsæt</button>
 </form>
+
+<?php
+require 'incl/adminFooter.php';
+?>
