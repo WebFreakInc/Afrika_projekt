@@ -1,6 +1,12 @@
 <?php
 session_start();
+
+<<<<<<< HEAD
 require 'incl/adminHead.php';
+=======
+require'../head.php';
+>>>>>>> 0ec7b6745aeefa6bf0137f03b814d9d58748586e
+
 
 if (!isset($_SESSION['loggedIn'])) {
     header('location: ../../../admin.php');
