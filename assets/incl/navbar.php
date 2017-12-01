@@ -7,7 +7,7 @@
           <!--- NAV LOGO START --->
           <a class="navbar-brand" href="index.php">
               <h1 style="color:orangered; display:inline;">STØT</h1><h1 style='display:inline;'>AFRIKA</h1>
-               
+
           </a>
           <!--- NAV LOGO END --->
 
@@ -21,10 +21,10 @@
                 <a class="nav-link" href="index.php">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sponsorere.php">SPONSORERE</a>
+                <a class="nav-link" href="sponsors.php">SPONSORERE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="produkter.php">PRODUKTER</a>
+                <a class="nav-link" href="products.php">PRODUKTER</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#livestream">LIVESTREAM</a>

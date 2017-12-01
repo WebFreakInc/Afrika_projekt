@@ -19,10 +19,14 @@
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <!-- STYLE -->
         <link href="assets/css/master.css" rel="stylesheet">
+        <link href="assets/css/headindex.css" rel="stylesheet">
     </head>
 
     <!-- BODY START -->
     <body>
+
         <header>
+<!--NAVBAR-->
+
             <?php include('navbar.php'); ?>
         </header>

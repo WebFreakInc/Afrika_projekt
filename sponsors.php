@@ -3,10 +3,6 @@
 
 <body style="background-color:#DABCA0;">
 
-    <!--NAVBAR-->
-    <header>
-        <?php include('assets/incl/navbar.php'); ?>  
-    </header>
 
     <!--HERO IMAGE MED LOGO-->
 
@@ -19,27 +15,27 @@
     </section>
 
 
- 
+
 <!--SPONSORERE GALLERI-->
 <section class="container-fluid">
     <h1>LOGO OG NAVN</h1>
-    
-    
+
+
 </section>
 
 
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 
     <!--DONATIONS-->
     <section class="container-fluid">
-        
+
         <?php include('assets/incl/donateSliders.php'); ?>
-        
+
     </section>
 
 
@@ -47,12 +43,11 @@
 
     <!--FOOTER CONTACT-->
     <footer class="container-fluid">
-        <?php include('assets/incl/footer.php'); ?> 
+        <?php include('assets/incl/footer.php'); ?>
 
     </footer>
 
     <!--JAVASCRIPTS-->
-    <?php include('assets/incl/footjs.php'); ?> 
+    <?php include('assets/incl/footjs.php'); ?>
 
 </body>
-

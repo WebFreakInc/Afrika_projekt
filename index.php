@@ -9,30 +9,57 @@
 
 
     <!--TOTAL ACCUMULATED-->
-    <section class="container-fluid">
-        50000 kr
+    <section class="container-fluid text-center">
+        <h1>50000 kr</h1>
     </section>
 
 
     <!--INFO TEXT-->
-    <section class='container'>
-        <div class='col-6'></div>
+    <section id='infotext' class='container'>
+      <div class="row">
+        <article class='col-6'>
+          <h2>Produkterne</h2>
+          <p>Elever på grundforløb 1 på flere forskellige uddannelser, har i et par måneder arbejdet med at udvikle og konstruere en lang række produkter, som sælges til fordel for DINNødhjælp. Der er fuglehuse, kaninbure, bænke, skamler og champagnekølere. Der er krukker, lysestager, hylder og mange andre forskellige produkter. Alle tingene bliver sat til salg på facebookgruppen "Hjælp Afrika (TECHCOLLEGE)".</p>
+        </article>
 
-        <div class='col-6'></div>
+        <article class='col-6'>
+          <h2>Donationer</h2>
+          <p>Man kan betale kontant eller via MobilPay tlf.: 2526 6638
+          (modtager "Elevforum, Media og Projekt Afrika").</p>
 
+          <h2>Fundraising</h2>
+          <p>Produkterne sælges også på en fysisk auktion på:
+          TECHCOLLEGE i: Konference N207 på TECHCOLLEGE, Øster Uttrup Vej 1 i Aalborg. Man er velkommen til at møde op på dagen.</p>
+        </article>
+</div>
     </section>
 
 
     <!--PRODUCTS-->
     <section class="container">
 
-        <h1>isotopes?</h1>
+      <div class="container-fluid">
+        <div class="grid">
+          <!-- 2 col grid @ xs, 3 col grid @ sm, 4 col grid @ md -->
+          <div class="grid-sizer col-xs-6 col-sm-4 col-md-3"></div>
+          <!-- 1 col @ xs, 2 col @ sm, 2 col @ md -->
+          <div class="grid-item col-xs-6 col-sm-8 col-md-6">
+            <div class="grid-item-content">...</div>
+          </div>
+          <!-- 1 col @ xs, 1 col @ sm, 1 col @ md -->
+          <div class="grid-item col-xs-6 col-sm-4 col-md-3">
+            <div class="grid-item-content">...</div>
+          </div>
+          ...
+        </div>
+      </div>
+
 
     </section>
 
 
     <!--TWITCH EMBEDDED-->
-    <section id="livestream" class="container">
+    <section id="livestream" class="container text-center">
         <h2>Følg os Live</h2>
         <!-- https://dev.twitch.tv/docs/embed -->
 
@@ -64,8 +91,4 @@
 
 
     <!--FOOTER, JAVASCRIPT & BODY (end)-->
-        <?php include('assets/incl/footer.php'); ?> 
-
-
-
-
+        <?php include('assets/incl/footer.php'); ?>
