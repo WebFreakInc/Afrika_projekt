@@ -36,30 +36,137 @@
 
 
     <!--PRODUCTS-->
-    <section class="container">
 
-      <div class="container-fluid">
-        <div class="grid">
-          <!-- 2 col grid @ xs, 3 col grid @ sm, 4 col grid @ md -->
-          <div class="grid-sizer col-xs-6 col-sm-4 col-md-3"></div>
-          <!-- 1 col @ xs, 2 col @ sm, 2 col @ md -->
-          <div class="grid-item col-xs-6 col-sm-8 col-md-6">
-            <div class="grid-item-content">...</div>
-          </div>
-          <!-- 1 col @ xs, 1 col @ sm, 1 col @ md -->
-          <div class="grid-item col-xs-6 col-sm-4 col-md-3">
-            <div class="grid-item-content">...</div>
-          </div>
-          ...
+
+<!-- ANOTHER ONE -->
+
+<div class="container">
+      <h2 class="">Work</h2>
+      <div id="filters" class="button-group filters-button-group">
+        <button class="button is-checked" data-filter="*">show all</button>
+        <button class="button" data-filter=".ads">Ads</button>
+        <button class="button" data-filter=".books">Books</button>
+        <button class="button" data-filter=".flyers">Flyers</button>
+        <button class="button" data-filter=".logos">Logos</button>
+        <button class="button" data-filter=".websites">Websites</button>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </button>
+        <div id="filters" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <button class="button is-checked" data-filter="*">show all</button>
+          <button class="button dropdown-item" data-filter=".ads">Ads</button>
+          <button class="button dropdown-item" data-filter=".books">Books</button>
+          <button class="button dropdown-item" data-filter=".flyers">Flyers</button>
+          <button class="button dropdown-item" data-filter=".logos">Logos</button>
+          <button class="button dropdown-item" data-filter=".websites">Websites</button>
+<!--
+          <button class="dropdown-item" type="button">Action</button>
+          <button class="dropdown-item" type="button">Another action</button>
+          <button class="dropdown-item" type="button">Something else here</button>
+-->
         </div>
       </div>
+
+
+      <div class="row grid data-isotope='{ "itemSelector": ".grid-item", "masonry": { "columnWidth": 200 } }'">
+
+<!-- CATAGORI 1 -->
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+
+<!-- CATAGORI 2 -->
+        <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"></a>
+        </div>
+
+
+
+
+
+
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
+        <div class="col-6 col-md-3 grid-item books" data-category="books"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
+        <div class="col-6 col-md-3 grid-item logos" data-category="logos"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
+        <div class="col-6 col-md-3 grid-item books" data-category="books"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
+      </div>
+    </div>
+
+
+
+    <div class="grid">
+      <div class="grid-sizer"></div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" />
+      </div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" />
+      </div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" />
+      </div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" />
+      </div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" />
+      </div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
+      </div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" />
+      </div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" />
+      </div>
+      <div class="grid-item">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
+      </div>
+    </div>
+
+
 
 
     </section>
 
 
     <!--TWITCH EMBEDDED-->
+
+
     <section id="livestream" class="container text-center">
+
+
         <h2>Følg os Live</h2>
         <!-- https://dev.twitch.tv/docs/embed -->
 
@@ -67,7 +174,13 @@
         <div id="twitch-embed"></div>
 
         <!-- Load the Twitch embed script -->
+
+
+<!--
+
         <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+-->
 
         <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
         <script type="text/javascript">
