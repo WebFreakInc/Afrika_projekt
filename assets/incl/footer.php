@@ -1,6 +1,15 @@
 
-<footer class="container-fluid" style='background-color: #2C180F; height:200px'>
-    <h1>footer</h1>
+<footer class="container-fluid text-center" style='background-color: #2C180F; height:200px'>
+    <p>
+    Se mere på Facebook: "Hjælp Afrika (TECHCOLLEGE)" fra d. 11.12.17
+    <br>
+    Eller på
+    <br>
+    <a href="http://www.techcollege.dk/">www.techcollege.dk</a>
+    <br>
+
+    For yderligere information, kontakt Projektleder, Anders Nørgaard: anpn@techcollege.dk
+</p>
 </footer>
 
 <!-- JAVASCRIPT -->

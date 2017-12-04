@@ -3,13 +3,13 @@
 
 
     <!--HERO IMAGE MED LOGO-->
-    <picture class="container">
-        <img href="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
+    <section class="container-fluid text-center">
+    <picture >
+        <img class="img-fluid" src="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
     </picture>
 
 
     <!--TOTAL ACCUMULATED-->
-    <section class="container-fluid text-center">
         <h1>50000 kr</h1>
     </section>
 
@@ -35,13 +35,16 @@
     </section>
 
 
+
+
     <!--PRODUCTS-->
 
-
 <!-- ANOTHER ONE -->
+<section class="container">
+      <h2 class="">Produkter</h2>
 
-<div class="container">
-      <h2 class="">Work</h2>
+      <!-- inline buttons -->
+      <!--
       <div id="filters" class="button-group filters-button-group">
         <button class="button is-checked" data-filter="*">show all</button>
         <button class="button" data-filter=".ads">Ads</button>
@@ -50,23 +53,19 @@
         <button class="button" data-filter=".logos">Logos</button>
         <button class="button" data-filter=".websites">Websites</button>
       </div>
+-->
 
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </button>
-        <div id="filters" class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <button class="button is-checked" data-filter="*">show all</button>
-          <button class="button dropdown-item" data-filter=".ads">Ads</button>
-          <button class="button dropdown-item" data-filter=".books">Books</button>
-          <button class="button dropdown-item" data-filter=".flyers">Flyers</button>
-          <button class="button dropdown-item" data-filter=".logos">Logos</button>
-          <button class="button dropdown-item" data-filter=".websites">Websites</button>
-<!--
-          <button class="dropdown-item" type="button">Action</button>
-          <button class="dropdown-item" type="button">Another action</button>
-          <button class="dropdown-item" type="button">Something else here</button>
--->
+        <div id="filters" class="dropdown-menu button-group filters-button-group" aria-labelledby="dropdownMenu2">
+        <!--<button class="button" data-filter="*">show all</button>-->
+          <button class="button dropdown-item" data-filter=".ads">Tømre</button>
+          <button class="button dropdown-item" data-filter=".books">Murer</button>
+          <button class="button dropdown-item" data-filter=".flyers">Vvs</button>
+          <button class="button dropdown-item" data-filter=".logos">Electriker</button>
+          <button class="button dropdown-item" data-filter=".websites">Diverse</button>
         </div>
       </div>
 
@@ -90,6 +89,31 @@
           <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
         </div>
 
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+        </div>
+
+
 
 <!-- CATAGORI 2 -->
         <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
@@ -109,21 +133,96 @@
         </div>
 
 
+<!-- CATAGORI 3 -->
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+        </div>
 
 
+      <!-- CATAGORI 4 -->
+        <div class="col-6 col-md-3 grid-item books" data-category="books">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item books" data-category="books">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item books" data-category="books">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item books" data-category="books">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item books" data-category="books">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item books" data-category="books">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item books" data-category="books">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
+        </div>
 
 
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
-        <div class="col-6 col-md-3 grid-item books" data-category="books"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
-        <div class="col-6 col-md-3 grid-item logos" data-category="logos"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
-        <div class="col-6 col-md-3 grid-item websites" data-category="websites"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
-        <div class="col-6 col-md-3 grid-item books" data-category="books"><a href="http://ascenddev.com/img/projects/lothflyer.jpg"><img src="http://ascenddev.com/img/projects/lothflyer.jpg"></a></div>
+  <!-- CATAGORI 5 -->
+        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
+        </div>
+        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
+        </div>
+
+        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
+        </div>
+
       </div>
-    </div>
-
-
-
+<!-- PIC LINK
     <div class="grid">
       <div class="grid-sizer"></div>
       <div class="grid-item">
@@ -154,8 +253,7 @@
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
       </div>
     </div>
-
-
+-->
 
 
     </section>
@@ -168,26 +266,22 @@
 
 
         <h2>Følg os Live</h2>
-        <!-- https://dev.twitch.tv/docs/embed -->
+        <!-- https://dev.twitch.tv/docs/embed-->
 
         <!-- Add a placeholder for the Twitch embed -->
         <div id="twitch-embed"></div>
 
         <!-- Load the Twitch embed script -->
 
-
-<!--
-
         <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
--->
 
         <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
         <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
                 width: 854,
                 height: 480,
-                channel: "monstercat"
+                channel: "dinnoedhjaelp"
             });
         </script>
 
@@ -199,9 +293,6 @@
         <?php include('assets/incl/donateSliders.php'); ?>
 
     </section>
-
-
-
 
     <!--FOOTER, JAVASCRIPT & BODY (end)-->
         <?php include('assets/incl/footer.php'); ?>

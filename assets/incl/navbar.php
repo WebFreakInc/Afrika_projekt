@@ -26,12 +26,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="products.php">PRODUKTER</a>
               </li>
+<!--
               <li class="nav-item">
                 <a class="nav-link" href="#livestream">LIVESTREAM</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">TIDSPLAN</a>
               </li>
+-->
             </ul>
           </div>
         </div>
