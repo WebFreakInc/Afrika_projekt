@@ -12,7 +12,9 @@ include('assets/incl/head.php');
 
 
     <!--TOTAL ACCUMULATED-->
+
         <h1>50000 kr</h1>
+        <?php include('assets/incl/counter.php');?>
     </section>
 
 
@@ -39,10 +41,7 @@ include('assets/incl/head.php');
 </section>
 
 
-<<<<<<< HEAD
-=======
 <!--PRODUCTS-->
->>>>>>> a0a8cedf91b13e3e7d6977c2c1cc716fe9dc9af7
 
 
     <!--PRODUCTS-->
@@ -289,25 +288,14 @@ include('assets/incl/head.php');
 <section id="livestream" class="container text-center">
 
 
-<<<<<<< HEAD
         <h2>Følg os Live</h2>
         <!-- https://dev.twitch.tv/docs/embed-->
-=======
-  <h2>Følg os Live</h2>
-  <!-- https://dev.twitch.tv/docs/embed -->
->>>>>>> a0a8cedf91b13e3e7d6977c2c1cc716fe9dc9af7
 
   <!-- Add a placeholder for the Twitch embed -->
   <div id="twitch-embed"></div>
 
   <!-- Load the Twitch embed script -->
 
-<<<<<<< HEAD
-=======
-
-  <!--
-
->>>>>>> a0a8cedf91b13e3e7d6977c2c1cc716fe9dc9af7
         <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
 
@@ -329,10 +317,6 @@ include('assets/incl/head.php');
 
 </section>
 
-<<<<<<< HEAD
-    <!--FOOTER, JAVASCRIPT & BODY (end)-->
-        <?php include('assets/incl/footer.php'); ?>
-=======
 
 
 
@@ -344,4 +328,11 @@ include('assets/incl/head.php');
       $('#counter').load('test.php').fadeIn("slow"); // Target which will be updated
     }, 10000); // refresh page every 10 seconds
 </script>
->>>>>>> a0a8cedf91b13e3e7d6977c2c1cc716fe9dc9af7
+
+
+<script type="text/javascript">
+  var autoLoad = setInterval(
+    function () {
+      $('#counter').load('test.php').fadeIn("slow"); // Target which will be updated
+    }, 10000); // refresh page every 10 seconds
+    </script>

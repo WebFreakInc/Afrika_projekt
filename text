@@ -28,3 +28,16 @@
     </div>
   </div>
 </div>
+
+
+
+<!--TOTAL ACCUMULATED-->
+
+
+
+
+<!--FOOTER, JAVASCRIPT & BODY (end)-->
+<?php include('assets/incl/footer.php'); ?>
+
+</script>
+>>>>>>> a0a8cedf91b13e3e7d6977c2c1cc716fe9dc9af7
