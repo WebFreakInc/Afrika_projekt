@@ -1,7 +1,6 @@
 <!-- HEAD, HEADER & BODY (start) -->
 <?php
 include('assets/incl/head.php'); 
-include('assets/incl/counter.php');
 ?>
 
 
@@ -12,9 +11,7 @@ include('assets/incl/counter.php');
 
 
 <!--TOTAL ACCUMULATED-->
-<section class="counter container-fluid text-center">
-  <h2></h2>
-</section>
+<?php include('assets/incl/counter.php');?>
 
 
 <!--INFO TEXT-->
@@ -255,6 +252,5 @@ include('assets/incl/counter.php');
   var autoLoad = setInterval(
     function () {
       $('#counter').load('test.php').fadeIn("slow"); // Target which will be updated
-      console.log("updated");
     }, 10000); // refresh page every 10 seconds
 </script>
