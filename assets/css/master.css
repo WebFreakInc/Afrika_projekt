@@ -40,22 +40,21 @@
       height: auto;
       margin: 0 8px; }
 
-/*-- Body styles */
-body {
-  font-family: Montserrat, sans-serif;
-  background-color: #DABCA0;
-  color: black; }
-
 .gallery picture img {
   position: relative;
   height: 300px;
-  width: 300px;
-  object-fit: contain; }
+  width: 300px; }
 .gallery picture h4 {
   position: absolute;
   right: 20px;
   bottom: 0;
   color: #DABCA0; }
+
+/*-- Body styles */
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #DABCA0;
+  color: black; }
 
 /*-- Temporary styles (TEST) :) */
 
