@@ -1,18 +1,18 @@
 <!-- HEAD, HEADER & BODY (start) -->
-<?php
-include('assets/incl/head.php');
-?>
+<?php include('assets/incl/head.php');?>
 
 
     <!--HERO IMAGE MED LOGO-->
-    <section class="container-fluid text-center">
-    <picture >
-        <img class="img-fluid" src="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
-    </picture>
-
+    <section class="container-fluid">
+        <picture >
+            <img class="" src="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
+        </picture>
+    </section>
 
     <!--TOTAL ACCUMULATED-->
+    <?php include('assets/incl/counter.php');?>
 
+<<<<<<< HEAD
         <h1>50000 kr</h1>
 
         <!-- izet counter -->
@@ -20,6 +20,8 @@ include('assets/incl/head.php');
     //  include('assets/incl/counter.php');
       ?>
     </section>
+=======
+>>>>>>> 20579773199474e1162ce63d23a527ebae8ad706
 
 
 <!--INFO TEXT-->
