@@ -14,7 +14,11 @@ include('assets/incl/head.php');
     <!--TOTAL ACCUMULATED-->
 
         <h1>50000 kr</h1>
-        <?php include('assets/incl/counter.php');?>
+
+        <!-- izet counter -->
+      <?php
+    //  include('assets/incl/counter.php');
+      ?>
     </section>
 
 
@@ -42,244 +46,12 @@ include('assets/incl/head.php');
 
 
 <!--PRODUCTS-->
-
-
-    <!--PRODUCTS-->
-
-<!-- ANOTHER ONE -->
 <section class="container">
-      <h2 class="">Produkter</h2>
-
-      <!-- inline buttons -->
-      <!--
-      <div id="filters" class="button-group filters-button-group">
-        <button class="button is-checked" data-filter="*">show all</button>
-        <button class="button" data-filter=".ads">Ads</button>
-        <button class="button" data-filter=".books">Books</button>
-        <button class="button" data-filter=".flyers">Flyers</button>
-        <button class="button" data-filter=".logos">Logos</button>
-        <button class="button" data-filter=".websites">Websites</button>
-      </div>
--->
-
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </button>
-        <div id="filters" class="dropdown-menu button-group filters-button-group" aria-labelledby="dropdownMenu2">
-        <!--<button class="button" data-filter="*">show all</button>-->
-          <button class="button dropdown-item" data-filter=".ads">Tømre</button>
-          <button class="button dropdown-item" data-filter=".books">Murer</button>
-          <button class="button dropdown-item" data-filter=".flyers">Vvs</button>
-          <button class="button dropdown-item" data-filter=".logos">Electriker</button>
-          <button class="button dropdown-item" data-filter=".websites">Diverse</button>
-        </div>
-      </div>
-
-
-  <div class="row grid data-isotope='{ " itemSelector ": ".grid-item ", "masonry ": { "columnWidth ": 200 } }'">
-
-    <!-- CATAGORI 1 -->
-    <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-      <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-      </a>
-    </div>
-
-    <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-      <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-      </a>
-    </div>
-
-    <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-      <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-      </a>
-    </div>
-
-    <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-      <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-      </a>
-    </div>
-
-        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
-        </div>
-
-
-
-    <!-- CATAGORI 2 -->
-    <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
-      <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg">
-        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg">
-      </a>
-    </div>
-
-    <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
-      <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg">
-        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg">
-      </a>
-    </div>
-
-    <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
-      <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg">
-        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg">
-      </a>
-    </div>
-
-    <div class="col-6 col-md-3 grid-item flyers" data-category="flyers">
-      <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg">
-        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg">
-      </a>
-    </div>
-
-
-<!-- CATAGORI 3 -->
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
-        </div>
-
-
-      <!-- CATAGORI 4 -->
-        <div class="col-6 col-md-3 grid-item books" data-category="books">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item books" data-category="books">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item books" data-category="books">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item books" data-category="books">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item books" data-category="books">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item books" data-category="books">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item books" data-category="books">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"></a>
-        </div>
-
-
-  <!-- CATAGORI 5 -->
-        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
-        </div>
-        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
-        </div>
-
-        <div class="col-6 col-md-3 grid-item logos" data-category="logos">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"></a>
-        </div>
-
-      </div>
-<!-- PIC LINK
-    <div class="grid">
-      <div class="grid-sizer"></div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
-      </div>
-    </div>
--->
-
-
+<?php
+include('assets/incl/isotopes.php');
+?>
 </section>
+
 
 
 <!--TWITCH EMBEDDED-->
@@ -322,17 +94,3 @@ include('assets/incl/head.php');
 
 <!--FOOTER, JAVASCRIPT & BODY (end)-->
 <?php include('assets/incl/footer.php'); ?>
-<script type="text/javascript">
-  var autoLoad = setInterval(
-    function () {
-      $('#counter').load('test.php').fadeIn("slow"); // Target which will be updated
-    }, 10000); // refresh page every 10 seconds
-</script>
-
-
-<script type="text/javascript">
-  var autoLoad = setInterval(
-    function () {
-      $('#counter').load('test.php').fadeIn("slow"); // Target which will be updated
-    }, 10000); // refresh page every 10 seconds
-    </script>
