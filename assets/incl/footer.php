@@ -20,22 +20,14 @@
 
 
 
-<script>
-var $grid = $('.grid').isotope({
-              // options
-              itemSelector: '.grid-item',
-              layoutMode: 'fitRows',
-            });
 
-// change is-checked class on buttons
-var $buttonGroup = $('.button-group');
-$buttonGroup.on( 'click', 'button', function( event ) {
-  $buttonGroup.find('.is-checked').removeClass('is-checked');
-  var $button = $( event.currentTarget );
-  $button.addClass('is-checked');
-  var filterValue = $button.attr('data-filter');
-  $grid.isotope({ filter: filterValue });
-});
+
+<!-- izet stuff -->
+<script type="text/javascript">
+  var autoLoad = setInterval(
+    function () {
+      $('#counter').load('test.php').fadeIn("slow"); // Target which will be updated
+    }, 10000); // refresh page every 10 seconds
 </script>
 
 
