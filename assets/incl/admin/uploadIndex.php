@@ -1,5 +1,5 @@
 <?php
-require 'dbInfo.php';
+require '../dbInfo.php';
 ?>
 <!DOCTYPE html>
 <html>

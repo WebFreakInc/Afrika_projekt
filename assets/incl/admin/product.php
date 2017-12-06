@@ -1,13 +1,13 @@
 <?php
-session_start();
 require 'incl/adminHead.php';
 require '../dbInfo.php';
+//phpinfo();
 
 if (!isset($_SESSION['loggedIn'])) {
     header('location: ../../../admin.php');
 }
 ?>
-<form method="post" action="addProduct.php" class="col-md-3 mx-auto">
+<form method="post" action="addProduct.php" enctype="multipart/form-data" class="col-md-3 mx-auto">
     <div>
         <label>Varens Navn</label>
         <input required type="text" name="productName" placeholder="Varens Navn" class="form-control">
@@ -35,6 +35,10 @@ if (!isset($_SESSION['loggedIn'])) {
                 <option><?=$categoryRow['category']?></option>
             <?php endwhile; ?>
         </select>
+    </div>
+    <div>
+        <label>Vælg Produkt Billede</label>
+        <input type="file" name="fileToUpload" id="fileToUpload" class="form-control">
     </div>
             <!-- INDSÆT UPLOAD AF BILLEDE HER -->
 

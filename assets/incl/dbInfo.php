@@ -1,9 +1,4 @@
 <?php
-//session_start();
-/*if (!isset($movieSelect)) {
-    $movieSelect = 1;
-}*/
-
 /* -- DATABASE CONNECTION -- */
 $dbServerName = "localhost";
 $dbUserName = "admin";
@@ -30,4 +25,6 @@ $productsRow = $productsResult->fetch_assoc();
 //CATEGORY SELECTION
 $categoryQuery = "SELECT * FROM categories";
 $categoryResult = $dbConnect ->query($categoryQuery);
+
+
 
