@@ -1,5 +1,4 @@
 <?php
-session_start();
 require 'incl/adminHead.php';
 
 if (!isset($_SESSION['loggedIn'])) {
