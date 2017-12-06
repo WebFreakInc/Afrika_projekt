@@ -1,8 +1,9 @@
 <!-- Header  -->
 <?php require ("assets/incl/head.php") ?>
 
-Case, på START hvor DIVERSE bliver vist
-
+<!-- 
+    PHP, vis først alle DIVERSE produkter
+    Ajax med input skal ændre i PHP så den viser kategori efter det
 
 <section class="container">
     <!-- <a name="Tomrer" id="" class="btn btn-primary" href="#" onclick="gallerySwitch(this.name)" role="button">Tømrer</a>
