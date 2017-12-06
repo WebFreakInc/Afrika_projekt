@@ -26,7 +26,7 @@
 <script type="text/javascript">
   var autoLoad = setInterval(
     function () {
-      $('#counter').load('test.php').fadeIn("slow"); // Target which will be updated
+      $('#counter').load("counter.php").fadeIn("slow"); // Target which will be updated
     }, 10000); // refresh page every 10 seconds
 </script>
 

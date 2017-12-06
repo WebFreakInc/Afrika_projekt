@@ -1,24 +1,25 @@
-<!DOCTYPE html>
+<?php
+// For hver row i table donations, NAVN,BELØB,KOMMENTAR
+// Output i li
+require ("dbInfo.php");
 
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/ColorScheme.png" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/ColorScheme.png" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/ColorScheme.png" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+$getDonationsQuery = "SELECT * FROM `donations`"; // SQL statement for donations
+$donations = mysqli_query($dbConnect, $getDonationsQuery) or die(mysqli_error($dbConnect)); // Connect or die if error
+$donationsCheck = mysqli_num_rows($donations); //Save how many rows detected
+
+
+if($donationsCheck < 1){ // If rows less than 1, output error
+  echo ('Something went wrong :[');
+} else {
+  echo ('<div class="donateSlider fixed-bottom container-fluid">');
+  echo ('<ul class="donateInfo">');
+  while($row = mysqli_fetch_assoc($donations)){ // While a row is a assoc array, take the "donation" and add it to total amount
+      echo ('<li>');
+      echo ($row["name"] . ': '. $row["donation"] . ' Kr. -');
+      echo ('</li> ');
+  }
+  echo ('</ul>');
+  echo ('</div>');
+}
+?>

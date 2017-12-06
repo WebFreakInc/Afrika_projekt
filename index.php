@@ -12,16 +12,6 @@
     <!--TOTAL ACCUMULATED-->
     <?php include('assets/incl/counter.php');?>
 
-<<<<<<< HEAD
-        <h1>50000 kr</h1>
-
-        <!-- izet counter -->
-      <?php
-    //  include('assets/incl/counter.php');
-      ?>
-    </section>
-=======
->>>>>>> 20579773199474e1162ce63d23a527ebae8ad706
 
 
 <!--INFO TEXT-->
@@ -74,22 +64,20 @@ include('assets/incl/isotopes.php');
 
 
         <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
                 width: 854,
                 height: 480,
-                channel: "dinnoedhjaelp"
+                channel: "dinnoedhjaelp",
+                autoplay: "false"
             });
-        </script>
+        </script> -->
 
 </section>
 
 <!--DONATIONS-->
-<section class="container-fluid">
 
-  <?php include('assets/incl/donateSliders.php'); ?>
-
-</section>
+<?php include('assets/incl/donateSliders.php'); ?>
 
 
 
