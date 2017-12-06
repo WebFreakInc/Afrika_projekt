@@ -15,16 +15,18 @@ if (!isset($_SESSION['loggedIn'])) {
     header('location: ../../admin.php');
 }
 
-$donationQuery = "INSERT INTO sponsors (company, donation, link) VALUES ('".$name."', '".$donation."', '".$link."')";
-$donationResult = $dbConnect->query($donationQuery);
+$productQuery = "INSERT INTO products (name, product_id, price, amount, description, category) VALUES ('".$name."', ".$id.", ".$price.", ".$amount.", '".$description."', '".$category."')";
+$productResult = $dbConnect->query($productQuery);
 
 echo "
      <div class='col-md-3 mx-auto'>
-        <h3>Donation indsat</h3>
-        <p> Firma: $name <br>
-            Donering: $donation <br>
-            Link (URL): $link
-            Logo: Indsæt billede tag her
+        <h3>Produkt indsat</h3>
+        <p> Produkt: $name <br>
+            Varenummer: $id<br>
+            Pris: $price<br>
+            Antal: $amount<br>
+            Beskrivelse: $description<br>
+            Kategori: $category<br>
         </p>
         <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
      </div>";

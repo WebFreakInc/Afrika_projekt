@@ -3,10 +3,12 @@
 
 
     <!--HERO IMAGE MED LOGO-->
-    <section class="container-fluid">
-        <picture >
-            <img class="" src="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
+    <section class="section__hero">
+        <picture>
+            <source srcset="assets/img/hero.jpg">
+            <img class="hero__img" src="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
         </picture>
+        <img src="assets/img/logo-brown.svg" class="hero__img--logo">
     </section>
 
     <!--TOTAL ACCUMULATED-->
@@ -43,7 +45,7 @@
     <!--PRODUCTS-->
 
 <!-- ANOTHER ONE -->
-<section class="container">
+<section class="container hamster">
       <h2 class="">Produkter</h2>
 
       <!-- inline buttons -->
@@ -241,38 +243,7 @@
         </div>
 
       </div>
-<!-- PIC LINK
-    <div class="grid">
-      <div class="grid-sizer"></div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" />
-      </div>
-      <div class="grid-item">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
-      </div>
-    </div>
--->
+
 
 
 </section>
@@ -298,9 +269,10 @@
         <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
         <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
-                width: 854,
+                width: "100%",
                 height: 480,
-                channel: "dinnoedhjaelp"
+                channel: "dinnoedhjaelp",
+                layout: "video"
             });
         </script>
 
