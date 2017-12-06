@@ -22,35 +22,20 @@ if (!isset($_SESSION['loggedIn'])) {
     header('location: ../../admin.php');
 }
 
-<<<<<<< HEAD
 $productQuery = "INSERT INTO products (name, product_id, price, amount, description, category) VALUES ('".$name."', ".$id.", ".$price.", ".$amount.", '".$description."', '".$category."')";
 $productResult = $dbConnect->query($productQuery);
-=======
-//PRODUCT INSERT
-$productQuery = "INSERT INTO products (product_id, name, price, amount, description, category) VALUES (".$id.", '".$name."', ".$price.", ".$amount.", '".$description."', '".$category."')";
-$productResult = $dbConnect->query($productQuery);
-
->>>>>>> dev
 
 //FEEDBACK
 echo "
      <div class='col-md-3 mx-auto'>
         <h3>Produkt indsat</h3>
         <p> Produkt: $name <br>
-<<<<<<< HEAD
             Varenummer: $id<br>
             Pris: $price<br>
             Antal: $amount<br>
             Beskrivelse: $description<br>
             Kategori: $category<br>
-=======
-            Produkt ID: $id <br>
-            Pris: $price <br>
-            Antal: $amount <br>
-            Beskrivelse: $description<br>
-            Kategori: $category<br>
-            <img src='$target_file' style='width:100%'>
->>>>>>> dev
+            <img src='$target_file' style='width: 100%;'>
         </p>
         <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
      </div>";
