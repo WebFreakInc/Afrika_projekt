@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/*-- Master stylesheet */
+/*-- Variables & mixins */
+/*-- Colors */
+/*-- Transparent colors */
+/*-- Shadow mixin */
+/*-- Border-radius mixin */
+/*-- Wrapper mixin */
+/*-- Animation mixin */
+/*-- Transition mixin */
+/*-- Transform mixin */
+/*-- Easings */
+/*-- Components */
+/*-- Header (Device) */
+.header__main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  z-index: 1000; }
+  .header__main a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .header__main a h1 {
+      margin: 0 16px 0 0;
+      font-family: "Righteous", sans-serif;
+      font-size: 24px;
+      text-transform: uppercase; }
+      .header__main a h1:hover {
+        text-decoration: none; }
+    .header__main a img {
+      width: 36px;
+      height: auto;
+      margin: 0 8px; }
+
+.section__hero {
+  position: relative; }
+  .section__hero .hero__img {
+    width: 100%; }
+
+.hero__img--logo {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 15vw; }
+
+.hamster {
+  display: none; }
+
+.gallery picture img {
+  position: relative;
+  height: 300px;
+  width: 300px; }
+.gallery picture h4 {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  color: #DABCA0; }
+
+/*-- Ved godt at det nok ikke er den rigtige m├Ñde at g├©re dette p├Ñ. Men skulle lige lave et hurtigt fix ;) */
+.navbar-fix {
+  padding-bottom: 0 !important; }
+
+.navbar-colors {
+  background-color: #2C180F; }
+  .navbar-colors img {
+    fill: #F08520;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 53px; }
+  .navbar-colors h1 {
+    display: inline;
+    color: #F08520;
+    font-size: 30px; }
+    .navbar-colors h1 span {
+      color: #DABCA0; }
+  .navbar-colors li a {
+    color: #DABCA0 !important; }
+
+.nav-btn {
+  color: #DABCA0;
+  background-color: #D14F16;
+  border-radius: 23%;
+  box-shadow: 0px 0px 15px rgba(208, 78, 22, 0.77); }
+
+.donateSlider {
+  background-color: red;
+  height: 4vh;
+  margin: auto 0;
+  background-color: #F08520; }
+  .donateSlider .donateInfo {
+    position: absolute;
+    animation: slider 40s infinite;
+    animation-timing-function: linear; }
+    .donateSlider .donateInfo li {
+      display: inline-block; }
+
+@keyframes slider {
+  0% {
+    transform: translateX(100vw); }
+  100% {
+    transform: translateX(-100%); } }
+@-moz-keyframes slider {
+  0% {
+    -moz-transform: translateX(100vw); }
+  100% {
+    -moz-transform: translateX(100%); } }
+/*-- Body styles */
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #DABCA0;
+  color: black; }
+
+/*-- Temporary styles (TEST) :) */
+
+/*# sourceMappingURL=master.css.map */

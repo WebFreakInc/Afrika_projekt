@@ -1,6 +1,5 @@
 $(document).ready(function updateCounter() {
     setInterval(function () {
-        $("#counter").load("test.php");
-        console.log("hej");
-    }, 1000);
+        $("#counter").load("assets/incl/counter.php");
+    }, 5000);
 });

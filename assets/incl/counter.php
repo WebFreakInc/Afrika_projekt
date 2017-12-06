@@ -1,5 +1,5 @@
 <?php
-require("assets/incl/dbInfo.php");
+require("dbInfo.php");
 // require("assets/incl/footer.php");
 // Get every amount from db
 // Add it in single value and output to counter
