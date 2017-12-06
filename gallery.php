@@ -8,19 +8,19 @@
     <a name="Murer" id="" class="btn btn-primary" href="#" onclick="gallerySwitch(this.name)" role="button">Murer</a>
     <div class="row gallery">
         <picture class="col-lg-3 Murer" style="">
-            <img class="img-fluid" width="" src="assets/img/productImages/1.jpg" alt="" srcset="">
+            <img class="img-fluid" width="" src="assets/img/products/1.jpg" alt="" srcset="">
             <h4>Brød</h4>
         </picture>
         <picture class="col-lg-3 Tomrer" style="">
-            <img class="img-fluid" width="" src="assets/img/productImages/2.jpg" alt="" srcset="">
+            <img class="img-fluid" width="" src="assets/img/products/2.jpg" alt="" srcset="">
             <h4>Brød</h4>
         </picture>
         <picture class="col-lg-3 Tomrer" style="">
-            <img class="img-fluid" width="" src="assets/img/productImages/3.jpg" alt="" srcset="">
+            <img class="img-fluid" width="" src="assets/img/products/3.jpg" alt="" srcset="">
             <h4>Brød</h4>
         </picture>
         <picture class="col-lg-3 Murer" style="">
-            <img class="img-fluid" width="" src="assets/img/productImages/4.jpeg" alt="" srcset="">
+            <img class="img-fluid" width="" src="assets/img/products/4.jpeg" alt="" srcset="">
             <h4>Brød</h4>
         </picture>
     </div>

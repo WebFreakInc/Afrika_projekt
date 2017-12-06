@@ -60,7 +60,7 @@
 
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Kategori
         </button>
         <div id="filters" class="dropdown-menu button-group filters-button-group" aria-labelledby="dropdownMenu2">
         <!--<button class="button" data-filter="*">show all</button>-->
@@ -298,7 +298,7 @@
         <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
         <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
-                width: 854,
+                width: "80%",
                 height: 480,
                 channel: "dinnoedhjaelp"
             });
