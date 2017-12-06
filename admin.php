@@ -1,5 +1,4 @@
 <?php
-session_start();
 require 'assets/incl/admin/incl/adminHead.php';
 require 'assets/incl/dbInfo.php';
 
@@ -41,7 +40,6 @@ if(isset($_POST["submit"])){ // Check if username and password is set
 }
 
 if (isset($_SESSION['loggedIn'])) {
-
     echo '
 <div class="row">
   <div class="col-md-3 mx-auto">

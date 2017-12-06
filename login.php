@@ -1,4 +1,3 @@
-<!-- Vi skal have en user table, info omkring password bliver lagt i projektinformation -->
 <?php
 require("assets/incl/dbinfo.php"); // WE NEED THIS TO POINT TO OUR DB :)
 

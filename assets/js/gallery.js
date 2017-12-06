@@ -1,6 +1,9 @@
 function gallerySwitch(elementName) { // Simple as fuck galleri
     switch (elementName) {
-        case "Tomrer":
+        case "Diverse":
+            hideShow(elementName);
+            break;
+        case "Tømrer":
             hideShow(elementName);
             break;
         case "Murer":
