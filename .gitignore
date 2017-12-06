@@ -2,6 +2,5 @@
 readme.md
 .idea
 nbproject
-assets/styles/.sass-cache
-assets/styles/.sass-cache/*
-
+assets/.sass-cache
+assets/.sass-cache/*
