@@ -4,7 +4,8 @@
 
     <!--HERO IMAGE MED LOGO-->
     <section class="container-fluid">
-        <picture >
+        <picture>
+            <source srcset="assets/img/hero.jpg">
             <img class="" src="assets/img/hero.jpg" alt="Anja-Lovén-med-heksebørn">
         </picture>
     </section>
@@ -64,14 +65,14 @@ include('assets/incl/isotopes.php');
 
 
         <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-        <!-- <script type="text/javascript">
+ <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
-                width: 854,
+                width: "80%",
                 height: 480,
                 channel: "dinnoedhjaelp",
                 autoplay: "false"
             });
-        </script> -->
+        </script>
 
 </section>
 

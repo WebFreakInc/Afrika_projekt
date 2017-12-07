@@ -40,9 +40,7 @@ if (!isset($_SESSION['loggedIn'])) {
         <label>Vælg Produkt Billede</label>
         <input type="file" name="fileToUpload" id="fileToUpload" class="form-control">
     </div>
-            <!-- INDSÆT UPLOAD AF BILLEDE HER -->
-
-
+    <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
     <button type="submit" class="btn btn-primary">Indsæt</button>
 </form>
 
