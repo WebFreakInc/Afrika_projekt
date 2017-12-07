@@ -99,7 +99,8 @@
   .donateSlider .donateInfo {
     position: absolute;
     animation: slider 40s infinite;
-    animation-timing-function: linear; }
+    animation-timing-function: linear;
+    line-height: 4vh; }
     .donateSlider .donateInfo li {
       display: inline-block; }
 

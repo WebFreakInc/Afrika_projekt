@@ -22,14 +22,7 @@
 
 
 
-<!-- izet stuff -->
-<!-- <script type="text/javascript">
-  var autoLoad = setInterval(
-    function () {
-      console.log("hej");
-      $('#counter').load("counter.php").fadeIn("slow"); // Target which will be updated
-    }, 10000); // refresh page every 10 seconds
-</script> -->
+<!-- Izet stuff -->
 
 <script src="/assets/js/counter.js"></script>
 
