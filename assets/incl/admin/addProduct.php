@@ -13,22 +13,30 @@ $category = $_POST['productCategory'];
 //Upload Variables
 $fileName = basename($_FILES["fileToUpload"]["name"]);
 $target_dir = "../../img/products/";
-$target_file = $target_dir . changeFileName($id,$fileName);
+$target_file = $target_dir . changeFileName($id, $fileName);
 $error = 1;
-$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
+$imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
 //CHECK IF LOGGED IN
 if (!isset($_SESSION['loggedIn'])) {
     header('location: ../../admin.php');
 }
 
-$productQuery = "INSERT INTO products (name, product_id, price, amount, description, category) VALUES ('".$name."', ".$id.", ".$price.", ".$amount.", '".$description."', '".$category."')";
-$productResult = $dbConnect->query($productQuery);
+/* -- CHECK IF ALREADY CREATED -- */
+$checkQuery = "SELECT * FROM products WHERE product_id = " . $id . "";
+$checkResult = $dbConnect->query($checkQuery);
+$checkRow = $checkResult->fetch_assoc();
+
+// IF IT DOESN'T EXIST
+if (!isset($checkRow)) {
+
+    $createQuery = "INSERT INTO products (name, product_id, price, amount, description, category) VALUES ('" . $name . "', " . $id . ", " . $price . ", " . $amount . ", '" . $description . "', '" . $category . "')";
+    $createResult = $dbConnect->query($createQuery);
 
 //FEEDBACK
-echo "
+    echo "
      <div class='col-md-3 mx-auto'>
-        <h3>Produkt indsat</h3>
+        <h3>Produkt Oprettet</h3>
         <p> Produkt: $name <br>
             Varenummer: $id<br>
             Pris: $price<br>
@@ -37,8 +45,31 @@ echo "
             Kategori: $category<br>
             <img src='$target_file' style='width: 100%;'>
         </p>
+        <a class='btn btn-secondary' href='product.php'>Indsæt Endnu Et Produkt</a>
         <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
      </div>";
+}
+//IF THE PRODUCT ALREADY EXISTS
+else {
+    $updateQuery = "UPDATE products SET name = '" . $name . "', product_id = " . $id . ", price = " . $price . ", amount = " . $amount . ", description = '" . $description . "', category = '" . $category . "' WHERE product_id = " . $id . "";
+    $updateResult = $dbConnect->query($updateQuery);
+
+//FEEDBACK
+    echo "
+     <div class='col-md-3 mx-auto'>
+        <h3>Produkt Opdateret</h3>
+        <p> Produkt: $name <br>
+            Varenummer: $id<br>
+            Pris: $price<br>
+            Antal: $amount<br>
+            Beskrivelse: $description<br>
+            Kategori: $category<br>
+            <img src='$target_file' style='width: 100%;'>
+        </p>
+        <a class='btn btn-secondary' href='product.php'>Indsæt Endnu Et Produkt</a>
+        <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
+     </div>";
+}
 
 require 'incl/adminFooter.php';
 
@@ -49,9 +80,9 @@ require 'incl/adminFooter.php';
 
 
 // CHECK IF IT'S AN ACTUAL IMAGE
-if(!empty($_POST["submit"])) {
+if (!empty($_POST["submit"])) {
     $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
+    if ($check !== false) {
         echo "Filen er et billede - " . $check["mime"] . ". ";
         $error = 1;
     } else {
@@ -63,20 +94,18 @@ if(!empty($_POST["submit"])) {
 // CHECK IF THERES AN ERROR (from file checker)
 if ($error == 0) {
     echo " Filen blev ikke uploaded.";
-}
-
-// UPLOADING THE FILE TO THE SERVER
+} // UPLOADING THE FILE TO THE SERVER
 else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-    }
-
-    else {
+    } else {
         echo "Der var en fejl ved upload af billedet.";
     }
 }
 
 // --------  CHANGE FILENAME FUNCTION  --------
-function changeFileName($change,$string) {
-    return $change.".".pathinfo($string,PATHINFO_EXTENSION);
+function changeFileName($change, $string)
+{
+    return $change . "." . pathinfo($string, PATHINFO_EXTENSION);
 }
+
 ?>

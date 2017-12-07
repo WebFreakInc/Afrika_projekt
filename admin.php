@@ -58,18 +58,31 @@ if (isset($_SESSION['loggedIn'])) {
             <input required required type="text" name="donationComment" placeholder="Kommentar" class="form-control">
         </div>
         <button type="submit" class="btn btn-primary">Indsæt Donation</button>
+        <a href="assets/incl/admin/tableDonations.php" class="btn btn-secondary">Donations Oversigt</a>
     </form>
+    
     </div>
 
 
     <section class="col-md-4 mx-auto">
         <h4>Sponsore</h4>
-        <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Indsæt Sponsor</a>
+        <a href="assets/incl/admin/tableSponsors.php" class="btn btn-secondary">Sponsor
+         Oversigt</a>
+         <br>
+         <br>
+        <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Indsæt Eller Opdater Sponsor</a>
+        <br>
+         <br>
         <h4>Produkter</h4>
-        <a href="assets/incl/admin/product.php" class="btn btn-secondary">Indsæt Produkt</a>
+        <a href="assets/incl/admin/tableProducts.php" class="btn btn-secondary">Produkt Oversigt</a>
+        </br>
+        </br>
+        <a href="assets/incl/admin/product.php" class="btn btn-secondary">Indsæt Eller Opdater Produkt</a>
+        </br>
         </br>
         <a href="assets/incl/admin/productSold.php" class="btn btn-secondary">Produkt Solgt</a>
-        </br>
+        <br>
+         <br>
         <h4>Logout</h4>
         <form method="post">
             <button type="submit" class="btn btn-secondary" name="logout">Log Ud</button>

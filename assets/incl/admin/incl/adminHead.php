@@ -8,7 +8,7 @@
     <!-- TAB COLOR -->
     <meta name="theme-color" content="#DABCA0">
     <!-- FAVICON -->
-    <link href="../../../../favicon.ico" rel="shortcut icon">
+    <link href="/favicon.ico" rel="shortcut icon">
     <!-- TITLE -->
     <title>Støt Afrika - Admin</title>
     <!--- FONTS --->
