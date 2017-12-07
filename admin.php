@@ -57,7 +57,7 @@ if (isset($_SESSION['loggedIn'])) {
             <label>Kommentar</label>
             <input required required type="text" name="donationComment" placeholder="Kommentar" class="form-control">
         </div>
-        <button type="submit" class="btn btn-primary">Indsæt</button>
+        <button type="submit" class="btn btn-primary">Indsæt Donation</button>
     </form>
     </div>
 

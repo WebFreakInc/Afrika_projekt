@@ -8,9 +8,9 @@
     <!-- TAB COLOR -->
     <meta name="theme-color" content="#DABCA0">
     <!-- FAVICON -->
-    <link href="favicon.ico" rel="shortcut icon">
+    <link href="../../../../favicon.ico" rel="shortcut icon">
     <!-- TITLE -->
-    <title>Støt Afrika - Login</title>
+    <title>Støt Afrika - Admin</title>
     <!--- FONTS --->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
