@@ -3,6 +3,6 @@ $(document).ready(function updateCounter() {
         $("#counter").load("assets/incl/counter.php");
     }, 5000);
     setInterval(function () {
-        $(".donateSlider").load("assets/incl/donateSlider.php");
+        $(".donateSlider").load("assets/incl/donateSlide.php");
     }, 40000);
 });

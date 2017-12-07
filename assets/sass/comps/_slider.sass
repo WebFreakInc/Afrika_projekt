@@ -1,28 +1,39 @@
 .bottomSlider
-    height: 4vh
+    // height: 4vh
     margin: auto 0
+    padding: 0
     
     .donateInfo
-        background-color: $color_orange-light
+        // background-color: $color_orange-light
+        white-space: nowrap
         position: absolute
         animation: slider 40s infinite
         animation-timing-function: linear
         line-height: 4vh
         li
             display: inline-block
-
-.sponsorSlider
-    background-color: red
-    height: 4vh
-    margin: auto 0
-    background-color: $color_orange-medium
     .sponsorInfo
-        position: absolute
-        animation: slider 40s infinite
+                position: absolute
+        animation: slider 50s infinite
         animation-timing-function: linear
-        line-height: 4vh
+        line-height: 10vh
         li
             display: inline-block
+            picture
+                img
+                    height: 50px
+                    width: 50px
+
+.donateSlide
+    background-color: $color_orange-light
+    height: 4vh
+    margin: 0 auto
+    padding: 0 auto
+.sponsorSlide
+    background-color: $color_orange-medium
+    height: 10vh
+    margin: 0 auto
+    padding: 0 auto
         
 
 
