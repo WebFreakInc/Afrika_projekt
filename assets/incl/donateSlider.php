@@ -4,7 +4,7 @@
 require ("dbInfo.php");
 
 
-$getDonationsQuery = "SELECT * FROM `donations`"; // SQL statement for donations
+$getDonationsQuery = "SELECT * FROM `donations` ORDER BY `id` DESC LIMIT 10"; // SQL statement for donations
 $donations = mysqli_query($dbConnect, $getDonationsQuery) or die(mysqli_error($dbConnect)); // Connect or die if error
 $donationsCheck = mysqli_num_rows($donations); //Save how many rows detected
 
