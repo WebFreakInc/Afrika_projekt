@@ -22,6 +22,6 @@ if($donationsCheck < 1){ // If rows less than 1, output error
             $totalAmount += $donation;
         }
     }
-    echo '<div id="counter"><h2 class="text-center">'.$totalAmount.' Kroner</h2></div>';
+    echo '<div id="counter"><h2 class="text-center">'.$totalAmount.' Kr</h2></div>';
 }
 ?>

@@ -1,5 +1,5 @@
-
-<footer class="container-fluid text-center" style='background-color: #2C180F; height:200px'>
+<footer class="container-fluid text-center footer-text" style='background-color: #2C180F; height:200px'>
+    <br>
     <p>
     Se mere på Facebook: "Hjælp Afrika (TECHCOLLEGE)" fra d. 11.12.17
     <br>
@@ -7,7 +7,7 @@
     <br>
     <a href="http://www.techcollege.dk/">www.techcollege.dk</a>
     <br>
-
+    <br>
     For yderligere information, kontakt Projektleder, Anders Nørgaard: anpn@techcollege.dk
 </p>
 </footer>
@@ -22,7 +22,14 @@
 
 
 
-<!-- Izet stuff -->
+<!-- izet stuff -->
+<!-- <script type="text/javascript">
+  var autoLoad = setInterval(
+    function () {
+      console.log("hej");
+      $('#counter').load("counter.php").fadeIn("slow"); // Target which will be updated
+    }, 10000); // refresh page every 10 seconds
+</script> -->
 
 <script src="/assets/js/counter.js"></script>
 
