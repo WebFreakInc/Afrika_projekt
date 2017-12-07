@@ -90,7 +90,7 @@ include('assets/incl/isotopes.php');
 
 <!--DONATIONS-->
 
-<?php include('assets/incl/donateSliders.php'); ?>
+<?php include('assets/incl/donateSlider.php'); ?>
 
 <br>
 <br
