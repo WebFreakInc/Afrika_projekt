@@ -20,7 +20,7 @@ if ($dbConnect -> connect_errno) {
 //LIST SELECTION
 $productsQuery = "SELECT * FROM products";
 $productsResult = $dbConnect ->query($productsQuery);
-$productsRow = $productsResult->fetch_assoc();
+//$productsRow = $productsResult->fetch_assoc();
 
 //CATEGORY SELECTION
 $categoryQuery = "SELECT * FROM categories";

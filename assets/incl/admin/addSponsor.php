@@ -19,20 +19,48 @@ if (!isset($_SESSION['loggedIn'])) {
     header('location: ../../admin.php');
 }
 
-$donationQuery = "INSERT INTO sponsors (company, donation, link) VALUES ('".$name."', '".$donation."', '".$link."')";
-$donationResult = $dbConnect->query($donationQuery);
+/* -- CHECK IF ALREADY CREATED -- */
+$checkQuery = "SELECT * FROM sponsors WHERE company = '" . $name . "'";
+$checkResult = $dbConnect->query($checkQuery);
+$checkRow = $checkResult->fetch_assoc();
 
-echo "
+// IF IT DOESN'T EXIST
+if (!isset($checkRow)) {
+    $donationQuery = "INSERT INTO sponsors (company, donation, link) VALUES ('" . $name . "', '" . $donation . "', '" . $link . "')";
+    $donationResult = $dbConnect->query($donationQuery);
+
+    echo "
      <div class='col-md-3 mx-auto'>
-        <h3>Donation indsat</h3>
+        <h3>Sponsor Oprettet</h3>
         <p> Firma: $name <br>
             Donering: $donation <br>
             Link (URL): $link<br>
             Logo: <br>
             <img src='$target_file' style='width: 100%;'>
         </p>
+        <a class='btn btn-secondary' href='sponsor.php'>Indsæt Endnu En Sponsor</a>
         <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
      </div>";
+}
+
+//IF THE PRODUCT ALREADY EXISTS
+else {
+    $updateQuery = "UPDATE sponsors SET company = '" . $name . "', donation = '" . $donation . "', link = '" . $link . "' WHERE company = '" . $name . "'";
+    $updateResult = $dbConnect->query($updateQuery);
+
+    echo "
+     <div class='col-md-3 mx-auto'>
+        <h3>Sponsor Opdateret</h3>
+        <p> Firma: $name <br>
+            Donering: $donation <br>
+            Link (URL): $link<br>
+            Logo: <br>
+            <img src='$target_file' style='width: 100%;'>
+        </p>
+        <a class='btn btn-secondary' href='sponsor.php'>Indsæt Endnu En Sponsor</a>
+        <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
+     </div>";
+}
 
 require 'incl/adminFooter.php';
 

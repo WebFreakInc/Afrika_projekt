@@ -64,9 +64,10 @@ if (isset($_SESSION['loggedIn'])) {
 
     <section class="col-md-4 mx-auto">
         <h4>Sponsore</h4>
-        <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Indsæt Sponsor</a>
+        <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Indsæt Eller Opdater Sponsor</a>
         <h4>Produkter</h4>
-        <a href="assets/incl/admin/product.php" class="btn btn-secondary">Indsæt Produkt</a>
+        <a href="assets/incl/admin/product.php" class="btn btn-secondary">Indsæt Eller Opdater Produkt</a>
+        </br>
         </br>
         <a href="assets/incl/admin/productSold.php" class="btn btn-secondary">Produkt Solgt</a>
         </br>
