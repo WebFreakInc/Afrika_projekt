@@ -24,7 +24,7 @@
                 <a class="nav-link" href="gallery.php">PRODUKTER</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">LIVESTREAM</a>
+                <a class="nav-link" href="#livestream" >LIVESTREAM</a>
               </li>
               <li class="nav-item">
                 <a class="btn nav-btn" href="#" role="button">STØT</a>

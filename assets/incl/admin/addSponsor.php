@@ -26,7 +26,7 @@ $checkRow = $checkResult->fetch_assoc();
 
 // IF IT DOESN'T EXIST
 if (!isset($checkRow)) {
-    $donationQuery = "INSERT INTO sponsors (company, donation, link, img_path) VALUES ('" . $name . "', '" . $donation . "', '" . $link . "', '".$fileName."')";
+    $donationQuery = "INSERT INTO sponsors (company, donation, link, img_path) VALUES ('" . $name . "', '" . $donation . "', '" . $link . "', '".$imageFileType."')";
     $donationResult = $dbConnect->query($donationQuery);
 
     echo "
@@ -45,7 +45,7 @@ if (!isset($checkRow)) {
 
 //IF THE PRODUCT ALREADY EXISTS
 else {
-    $updateQuery = "UPDATE sponsors SET company = '" . $name . "', donation = '" . $donation . "', link = '" . $link . "', img_path = '".$fileName."' WHERE company = '" . $name . "'";
+    $updateQuery = "UPDATE sponsors SET company = '" . $name . "', donation = '" . $donation . "', link = '" . $link . "', img_path = '".$imageFileType."' WHERE company = '" . $name . "'";
     $updateResult = $dbConnect->query($updateQuery);
 
     echo "

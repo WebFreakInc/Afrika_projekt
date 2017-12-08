@@ -21,7 +21,7 @@ $tableResult = $dbConnect->query($tableQuery);
     <?php while ($tableRow = $tableResult->fetch_assoc()) : ?>
         <tr>
             <td><?=$tableRow['name']?></td>
-            <td><?=$tableRow['donation']?></td>
+            <td><?=$tableRow['donation']?> kr</td>
             <td><?=$tableRow['comment']?></td>
 
         </tr>

@@ -36,7 +36,7 @@
 <!--INFO TEXT-->
 <section id="infotext" class="container">
     <div class="row">
-        <article class="col-6">
+        <article class="col-md-6">
             <h2>Produkterne</h2>
             <p>Elever på grundforløb 1 på flere forskellige uddannelser, har i et par måneder arbejdet med at udvikle og
                 konstruere
@@ -47,7 +47,7 @@
                 "Hjælp Afrika (TECHCOLLEGE)".</p>
         </article>
 
-        <article class='col-6'>
+        <article class='col-md-6'>
             <h2>Donationer</h2>
             <p>Man kan betale kontant eller via MobilPay tlf.: 2526 6638 (modtager "Elevforum, Media og Projekt
                 Afrika").</p>
@@ -62,38 +62,24 @@
 
 
 <!--PRODUCTS-->
-<section class="container">
+<section class="container products__main">
+    <h3>Nogle Af Vores Produkter</h3>
+    <div class="products__container">
+
     <?php
     $cardQuery = "SELECT * FROM products ORDER BY RAND() LIMIT 10";
     $cardResult = $dbConnect->query($cardQuery);
     while ($cardRow = $cardResult->fetch_array()) : ?>
-        <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="assets/img/products/<?=$cardRow['product_id']?>.png" alt="produkt-billede">
+        <div class="card products">
+                <img class="card-img-top" src="assets/img/products/<?=$cardRow['product_id']?>.<?=$cardRow['img_path']?>" alt="produkt-billede">
             <div class="card-block">
-                <h4 class="card-title"><?=$cardRow['name']?></h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h4 class="card-title products__name"><?=$cardRow['name']?></h4>
+                <p class="card-text products__description"><?=$cardRow['description']?></p>
+                <a href="#" class="products__price"><?=$cardRow['price']?> kr</a>
             </div>
         </div>
     <?php endwhile; ?>
-    <?php
-
-    /*for ($i = 0; $i <= 9; $i++) {
-        print_r($productsRow);
-        $productsCard = $productsRow['0'];
-        print_r($productsCard);
-        /*echo "
-            <div class=\"card\" style=\"width: 20rem;\">
-                <img class=\"card-img-top\" src=\"assets/img/products/$productsCard[product_id].png\" alt=\"produkt-billede\">
-                <div class=\"card-block\">
-                    <h4 class=\"card-title\">$productsCard[name]</h4>
-                    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>
-                </div>
-            </div>
-        ";
-    }*/
-    ?>
+    </div>
 </section>
 
 <br>
@@ -114,7 +100,7 @@
         <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
  <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
-                width: "80%",
+                width: "100%",
                 height: 480,
                 channel: "dinnoedhjaelp",
                 autoplay: "false",
