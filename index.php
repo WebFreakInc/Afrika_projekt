@@ -123,12 +123,13 @@
         </script>
 </section>
 
+
 <!--DONATIONS-->
 
-<?php include('assets/incl/donateSlider.php'); ?>
+<?php 
+include('assets/incl/donateSlider.php');
+?>
 
-    <br>
-    <br
 
 
     <!--FOOTER, JAVASCRIPT & BODY (end)-->
