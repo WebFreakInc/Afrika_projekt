@@ -1,6 +1,4 @@
 <section class="container-fluid">
-      <h2>Produkter</h2>
-
       <!-- inline buttons -->
       <!--
       <div id="filters" class="button-group filters-button-group">
@@ -51,12 +49,14 @@
 
     <div class="col-6 col-md-3 grid-item websites" data-category="websites">
       <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
-        <img style="width:100%;" src="<script>https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
+        <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
       </a>
     </div>
 
         <div class="col-6 col-md-3 grid-item websites" data-category="websites">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
+            <img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
+          </a>
         </div>
 
         <div class="col-6 col-md-3 grid-item websites" data-category="websites">
@@ -109,31 +109,31 @@
 
 <!-- CATAGORI 3 -->
         <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
         </div>
 
         <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
         </div>
 
         <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
         </div>
 
         <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
         </div>
 
         <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
         </div>
 
         <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
         </div>
 
         <div class="col-6 col-md-3 grid-item ads" data-category="ads">
-          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
+          <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img style="width:100%;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
         </div>
 
 

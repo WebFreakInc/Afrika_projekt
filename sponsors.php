@@ -5,13 +5,17 @@
 
 
 <!--SPONSORERE GALLERI-->
-<section class="container-fluid" style="height:1200px">
+<section class="container-fluid">
   <br>
     <br>
       <br>
 
     <h1>LOGO OG NAVN</h1>
+    <br>
+      <br>
+        <br>
 
+<?php include('assets/incl/isotopes.php'); ?>
 
 </section>
 
