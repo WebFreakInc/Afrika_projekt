@@ -21,7 +21,7 @@
                 <a class="nav-link" href="sponsors.php">SPONSORERE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.php">PRODUKTER</a>
+                <a class="nav-link" href="products.php">PRODUKTER</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">LIVESTREAM</a>

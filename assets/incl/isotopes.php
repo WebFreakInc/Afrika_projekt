@@ -1,4 +1,4 @@
-
+<section class="container-fluid">
       <h2>Produkter</h2>
 
       <!-- inline buttons -->
@@ -197,7 +197,7 @@
 
       </div>
 
-      
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
@@ -218,3 +218,5 @@
         $grid.isotope({ filter: filterValue });
       });
       </script>
+
+</section>

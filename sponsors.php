@@ -4,20 +4,12 @@
 <body style="background-color:#DABCA0;">
 
 
-    <!--HERO IMAGE MED LOGO-->
-
-
-
-    <!--TOTAL ACCUMULATED-->
-    <section class="container-fluid">
-        50000 kr
-
-    </section>
-
-
-
 <!--SPONSORERE GALLERI-->
-<section class="container-fluid">
+<section class="container-fluid" style="height:1200px">
+  <br>
+    <br>
+      <br>
+
     <h1>LOGO OG NAVN</h1>
 
 
@@ -32,22 +24,11 @@
 
 
     <!--DONATIONS-->
-    <section class="container-fluid">
-
-        <?php include('assets/incl/donateSliders.php'); ?>
-
-    </section>
-
-
+    <?php
+    include('assets/incl/donateSlider.php');
+    ?>
 
 
     <!--FOOTER CONTACT-->
-    <footer class="container-fluid">
+
         <?php include('assets/incl/footer.php'); ?>
-
-    </footer>
-
-    <!--JAVASCRIPTS-->
-    <?php include('assets/incl/footjs.php'); ?>
-
-</body>

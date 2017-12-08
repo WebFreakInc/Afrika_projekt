@@ -4,13 +4,23 @@
 <body style="background-color:#DABCA0;">
 
 
+<!--SPONSORERE GALLERI-->
+<section class="container-fluid">
+  <br>
+    <br>
+      <br>
 
-    <!--PRODUCTS GALLERI-->
-    <section class="container-fluid">
+    <h1>SHUFFLE ?</h1>
+            <br>
+            <br>
+                  <br>
 
-        <h1>isotopes?</h1>
+<?php include('assets/incl/isotopes.php'); ?>
 
-    </section>
+</section>
+
+
+
 
 
 
@@ -18,21 +28,11 @@
 
 
     <!--DONATIONS-->
-    <section class="container-fluid">
-
-        <?php include('assets/incl/donateSliders.php'); ?>
-
-    </section>
+    <?php
+    include('assets/incl/donateSlider.php');
+    ?>
 
 
     <!--FOOTER CONTACT-->
-    <footer class="container-fluid">
+
         <?php include('assets/incl/footer.php'); ?>
-
-    </footer>
-
-    <!--JAVASCRIPTS-->
-    <?php include('assets/incl/footjs.php'); ?>
-
-
-</body>
