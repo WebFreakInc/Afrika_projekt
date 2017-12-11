@@ -35,7 +35,7 @@ if($donationsCheck < 1 && $sponsorCheck < 1){ // If rows less than 1, output err
       $finalPath = $row["company"] . "." . $row["img_path"];
       echo ('<li>');
       echo ('
-        <img src="assets/img/sponsors/' . $finalPath . '" alt="logo">
+        <img src="assets/img/sponsors/' . $finalPath . '" class="sponsor__img" alt="logo">
       ');
       echo(' ' . $row["company"] . ' - ' . $row["donation"]);
       echo ('</li> ');

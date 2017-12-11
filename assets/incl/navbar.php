@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--- MAIN NAVIGATION START --->
-      <nav class="sticky-top navbar navbar-expand-lg navbar-dark navbar-colors navbar-fix">
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-colors navbar-fix fixed-top">
         <div class="container">
 
           <!--- NAV LOGO START --->
@@ -21,7 +21,7 @@
                 <a class="nav-link" href="sponsors.php">SPONSORERE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="products.php">PRODUKTER</a>
+                <a class="nav-link" href="gallery.php">PRODUKTER</a>
               </li>
               <li class="nav-item">
 <!--------------------------------------------------------------------------------------------

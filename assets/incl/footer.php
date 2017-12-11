@@ -1,4 +1,4 @@
-<footer class="container-fluid text-center footer-text" style='background-color: #2C180F; height:200px'>
+<footer class="container-fluid text-center footer-text" style='background-color: #2C180F; height:200px' id="footer-main">
     <br>
     <p>
     Se mere på Facebook: "Hjælp Afrika (TECHCOLLEGE)" fra d. 11.12.17
@@ -21,6 +21,10 @@
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
 <!-- COUNTER -->
-<script src="/assets/js/counter.js"></script>
+<script src="assets/js/counter.js"></script>
+<!-- SPONSOR IMG FIXER -->
+<script src="assets/js/sponsors.js"></script>
+<!-- Scroll things :) -->
+<script src="assets/js/scroll.js"></script>
 
 </body>
