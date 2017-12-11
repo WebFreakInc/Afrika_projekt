@@ -5,7 +5,7 @@ require '../dbInfo.php';
 $tableQuery = "SELECT * FROM sponsors";
 $tableResult = $dbConnect->query($tableQuery);
 ?>
-
+<section class="container">
     <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
     <h3>Donations Oversigt</h3>
     <table class="table">
@@ -32,7 +32,7 @@ $tableResult = $dbConnect->query($tableQuery);
 
     </table>
     <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
-
+</section>
 <?php
 require 'incl/adminFooter.php';
 ?>

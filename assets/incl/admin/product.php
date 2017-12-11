@@ -19,7 +19,7 @@ if (!isset($_SESSION['loggedIn'])) {
         <input required type="number" name="productId" placeholder="Varens Nummer" class="form-control">
     </div>
     <div>
-        <label>Varens Pris</label>
+        <label>Pris pr. Styk</label>
         <input required type="number" name="productPrice" placeholder="Pris" class="form-control">
     </div>
     <div>

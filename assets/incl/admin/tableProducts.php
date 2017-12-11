@@ -2,7 +2,7 @@
 require 'incl/adminHead.php';
 require '../dbInfo.php';
 ?>
-
+<section class="container">
 <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
 <h3>Produkt Oversigt</h3>
 <table class="table">
@@ -38,7 +38,7 @@ require '../dbInfo.php';
 
 </table>
 <a class='btn btn-secondary' href='../../../admin.php'>Tilbage til Admin Panelet</a>
-
+</section>
 <?php
 require 'incl/adminFooter.php';
 ?>
