@@ -1,4 +1,4 @@
-<footer class="container-fluid text-center footer-text" style='background-color: #2C180F; height:200px'>
+<footer class="container-fluid text-center footer-text" style='background-color: #2C180F; height:200px' id="footer-main">
     <br>
     <p>
     Se mere på Facebook: "Hjælp Afrika (TECHCOLLEGE)" fra d. 11.12.17
@@ -20,6 +20,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 <!-- COUNTER -->
-<script src="/assets/js/counter.js"></script>
+<script src="assets/js/counter.js"></script>
+<!-- SPONSOR IMG FIXER -->
+<script src="assets/js/sponsors.js"></script>
+<!-- Scroll things :) -->
+<script src="assets/js/scroll.js"></script>
 
 </body>
