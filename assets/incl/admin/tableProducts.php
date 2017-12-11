@@ -15,6 +15,7 @@ require '../dbInfo.php';
         <th scope="col">Antal I Alt</th>
         <th scope="col">Solgt</th>
         <th scope="col">Tjent</th>
+        <th scope="col">Kategori</th>
     </tr>
     </thead>
     <tbody>
@@ -22,12 +23,13 @@ require '../dbInfo.php';
     <tr>
         <td><?=$productsRow['product_id']?></td>
         <td><?=$productsRow['name']?></td>
-        <td><?=$productsRow['price']?></td>
+        <td><?=$productsRow['price']?> kr</td>
         <?php $remaining = $productsRow['amount'] - $productsRow['sold']; ?>
-        <td><?=$remaining?></td>
-        <td><?=$productsRow['amount']?></td>
-        <td><?=$productsRow['sold']?></td>
-        <td><?=$productsRow['earnings']?></td>
+        <td><?=$remaining?> stk</td>
+        <td><?=$productsRow['amount']?> stk</td>
+        <td><?=$productsRow['sold']?> stk</td>
+        <td><?=$productsRow['earnings']?> kr</td>
+        <td><?=$productsRow['category']?></td>
     </tr>
     <?php endwhile; ?>
 

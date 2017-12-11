@@ -1,0 +1,34 @@
+.products__main
+  h3
+    margin-top: 30px
+    font-weight: bold
+  .products__container
+    display: grid
+    grid-template-columns: auto auto auto auto auto
+    //grid-template-rows: auto auto
+    background-color: $color_vanilla
+    .products
+      width: calc(100%-8px)
+      margin: 8px
+      @include box-shadow(2)
+      background-color: $color__brown
+      color: $color_vanilla
+      .products__name
+        padding: 4px 8px
+      .products__description
+        padding: 0 8px
+      .products__price
+        position: absolute
+        top: 0
+        right: 0
+        padding: 5px 10px
+        @include border-radius(0 0 0 5px)
+        background-color: $color__brown
+        color: $color_vanilla
+
+//MOBILE VERSION
+@media only screen and (max-width: 960px)
+  .products__main
+    .products__container
+      grid-template-columns: auto auto
+      //grid-template-rows: auto auto auto auto auto

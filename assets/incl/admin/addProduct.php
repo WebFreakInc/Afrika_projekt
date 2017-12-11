@@ -30,7 +30,7 @@ $checkRow = $checkResult->fetch_assoc();
 // IF IT DOESN'T EXIST
 if (!isset($checkRow)) {
 
-    $createQuery = "INSERT INTO products (name, product_id, price, amount, description, category) VALUES ('" . $name . "', " . $id . ", " . $price . ", " . $amount . ", '" . $description . "', '" . $category . "')";
+    $createQuery = "INSERT INTO products (name, product_id, price, amount, description, category, img_path) VALUES ('" . $name . "', " . $id . ", " . $price . ", " . $amount . ", '" . $description . "', '" . $category . "', '".$imageFileType."')";
     $createResult = $dbConnect->query($createQuery);
 
 //FEEDBACK
@@ -51,7 +51,7 @@ if (!isset($checkRow)) {
 }
 //IF THE PRODUCT ALREADY EXISTS
 else {
-    $updateQuery = "UPDATE products SET name = '" . $name . "', product_id = " . $id . ", price = " . $price . ", amount = " . $amount . ", description = '" . $description . "', category = '" . $category . "' WHERE product_id = " . $id . "";
+    $updateQuery = "UPDATE products SET name = '" . $name . "', product_id = " . $id . ", price = " . $price . ", amount = " . $amount . ", description = '" . $description . "', category = '" . $category . "', img_path = '".$imageFileType."' WHERE product_id = " . $id . "";
     $updateResult = $dbConnect->query($updateQuery);
 
 //FEEDBACK

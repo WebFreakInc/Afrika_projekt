@@ -24,7 +24,11 @@
                 <a class="nav-link" href="products.php">PRODUKTER</a>
               </li>
               <li class="nav-item">
+<!--------------------------------------------------------------------------------------------
+ -----------------------------------FIX TIL RIGTIG DOMÆNE!!!!!!-------------------------------
+ -------------------------------------------------------------------------------------------->
                 <a class="nav-link" href="http://localhost:81/Afrika_projekt/index.php#livestream">LIVESTREAM</a>
+
               </li>
               <li class="nav-item">
                 <a class="btn nav-btn" href="#" role="button">STØT</a>

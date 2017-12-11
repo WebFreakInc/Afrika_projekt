@@ -8,6 +8,8 @@
     <a href="http://www.techcollege.dk/">www.techcollege.dk</a>
     <br>
     <br>
+        <a href="conditions.php">Handelsbetingelser</a>
+    <br>
     For yderligere information, kontakt Projektleder, Anders Nørgaard: anpn@techcollege.dk
 </p>
 </footer>
@@ -18,9 +20,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-
+<!-- COUNTER -->
 <script src="/assets/js/counter.js"></script>
-
-
 
 </body>

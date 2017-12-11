@@ -1,26 +1,41 @@
-function gallerySwitch(elementName) { // Simple as fuck galleri
-    switch (elementName) {
-        case "Diverse":
-            hideShow(elementName);
-            break;
-        case "Tømrer":
-            hideShow(elementName);
-            break;
-        case "Murer":
-            hideShow(elementName);
-            break;
-        default:
-            break;
-    }
-}
+//Live Search
+$(function () {
+    $(".filter-category").click(function() {
+        if($(this).hasClass('active-category') == false) {
+            var name = $(this).val();
+            var showmore = "0";
+            $('.active-category').removeClass('active-category');
+            $(this).addClass('active-category');
+            $.ajax({
+                type: "POST",
+                url: "assets/incl/category-search.php",
+                data: {
+                    showmore: showmore,
+                    category: name
+                },
+                success: function (html) {
+                    $(".products__container").html(html).show();
+                }
 
-function hideShow(name) {
-    $(".gallery picture").each(function () {
-        if ($(this).hasClass(name)) {
-            $(this).fadeIn()
-        } else {
-            $(this).fadeOut();
+            });
         }
     });
-}
-// For hver ITEM der ikke har class TØMRER i GALLERY append class HIDE
+    $(".products-content").on("click", '.showmore',function() {
+        var showmore = $(this).val();
+        var category = $('.show-category').val();
+        console.log("1."+showmore+"2."+category);
+        $.ajax({
+            type: "POST",
+            url: "assets/incl/category-search.php",
+            data: {
+                showmore: showmore,
+                category: category
+            },
+            success: function (html) {
+                $(".products__container").html(html).show();
+            }
+
+        });
+    });
+    console.log('hej');
+});
