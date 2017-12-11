@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--- MAIN NAVIGATION START --->
-      <nav class="sticky-top navbar navbar-expand-lg navbar-dark navbar-colors navbar-fix">
+      <nav class="sticky-top navbar navbar-expand-lg navbar-dark navbar-colors navbar-fix fixed-top">
         <div class="container">
 
           <!--- NAV LOGO START --->
