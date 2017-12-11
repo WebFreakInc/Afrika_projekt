@@ -1,39 +1,54 @@
 <!-- Header  -->
 <?php require ("assets/incl/head.php") ?>
 
-<!-- 
-    PHP, vis først alle DIVERSE produkter
-    Ajax med input skal ændre i PHP så den viser kategori efter det
+<section class="products">
+    <div class="container">
+        <h3>Produkter til salg</h3>
+        <?php
+        require 'assets/incl/dbInfo.php';
+        $query = "SELECT * FROM categories";
+        $result = $dbConnect->query($query);
+        ?>
 
-<section class="container">
-    <!-- <a name="Tomrer" id="" class="btn btn-primary" href="#" onclick="gallerySwitch(this.name)" role="button">Tømrer</a>
-    <a name="Murer" id="" class="btn btn-primary" href="#" onclick="gallerySwitch(this.name)" role="button">Murer</a> -->
-    <div class="form-group">
-      <select class="form-control" name="category" oninput="gallerySwitch(this.value)" id="">
-        <option value="Tomrer">Tomrer</option>
-        <option value="Murer">Murer</option>
-      </select>
+        <ul class="categories">
+            <li>
+                <button type="button" href="#" class="filter-category active-category" value="*">Vis Alle</button>
+            </li>
+            <?php while ($row = $result->fetch_assoc()) : ?>
+                <li>
+                    <button type="button" href="#" class="filter-category" value="<?= $row['category'] ?>"><?= $row['category'] ?></button>
+                </li>
+            <?php endwhile; ?>
+        </ul>
+        <section class="container products__main">
+        <div class="products__container">
+            <?php
+            $count = "SELECT count(*) FROM information_schema.columns WHERE table_name = 'products';";
+            $count = $dbConnect->query($count)->fetch_assoc();
+            $query = "SELECT * FROM products LIMIT 10";
+            $result = $dbConnect->query($query);
+
+            while ($row = $result->fetch_assoc()) : ?>
+
+                <div class="card products">
+                    <img class="card-img-top" src="assets/img/products/<?=$row['product_id']?>.<?=$row['img_path']?>" alt="produkt-billede">
+                    <div class="card-block">
+                        <h4 class="card-title products__name"><?=$row['name']?></h4>
+                        <p class="card-text products__description"><?=$row['description']?></p>
+                        <a href="#" class="products__price"><?=$row['price']?> kr</a>
+                    </div>
+                </div>
+
+            <?php endwhile;
+
+            if($count['count(*)'] > 10) : ?>
+                <input name="categories" class="show-category" type="hidden" value="*">
+                <button name="showmore" class="btn showmore" value="4">Vis flere<i style="vertical-align: middle;" class="material-icons">keyboard_arrow_down</i></button>
+            <?php endif; ?>
+        </div>
+        </section>
     </div>
-    <div class="row gallery">
-        <picture class="col-lg-3 Murer" style="">
-            <img class="img-fluid" width="" src="assets/img/products/1.jpg" alt="" srcset="">
-            <h4>Brød</h4>
-        </picture>
-        <picture class="col-lg-3 Tømrer" style="">
-            <img class="img-fluid" width="" src="assets/img/productImages/2.jpg" alt="" srcset="">
-            <h4>Brød</h4>
-        </picture>
-        <picture class="col-lg-3 Tømrer" style="">
-            <img class="img-fluid" width="" src="assets/img/productImages/3.jpg" alt="" srcset="">
-            <h4>Brød</h4>
-        </picture>
-        <picture class="col-lg-3 Murer" style="">
-            <img class="img-fluid" width="" src="assets/img/products/4.jpeg" alt="" srcset="">
-            <h4>Brød</h4>
-        </picture>
     </div>
 </section>
 
-
-<?php require("assets/incl/footer.php");?>
-<script src="assets/js/gallery.js"></script>
+<?php require ("assets/incl/footer.php")?>

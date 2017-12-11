@@ -100,7 +100,7 @@
         <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
  <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
-                width: "100%",
+                width: "99%",
                 height: 480,
                 channel: "dinnoedhjaelp",
                 autoplay: "false",

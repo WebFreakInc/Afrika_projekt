@@ -23,7 +23,6 @@
 
 
 
-
 <!-- izet stuff -->
 <!-- <script type="text/javascript">
   var autoLoad = setInterval(
@@ -33,7 +32,8 @@
     }, 10000); // refresh page every 10 seconds
 </script> -->
 
-<script src="/assets/js/counter.js"></script>
+<script src="assets/js/counter.js"></script>
+<script src="assets/js/gallery.js"></script>
 
 
 
