@@ -25,7 +25,7 @@
 <!--------------------------------------------------------------------------------------------
  -----------------------------------FIX TIL RIGTIG DOMÆNE!!!!!!-------------------------------
  -------------------------------------------------------------------------------------------->
-                <a class="nav-link" href="http://localhost:81/Afrika_projekt/index.php#livestream">LIVESTREAM</a>
+                <a class="nav-link" href="index.php#livestream">LIVESTREAM</a>
 
               </li>
               <li class="nav-item">
@@ -35,3 +35,20 @@
           </div>
         </div>
       </nav>
+
+      <!-- MODAL TIL MP -->
+<div id="mpModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="assets/img/canvas.png" width="100%" alt="MobilePay" srcset="assets/img/canvas.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Luk</button>
+      </div>
+    </div>
+
+  </div>
+</div>
