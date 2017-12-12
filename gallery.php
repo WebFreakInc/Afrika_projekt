@@ -43,7 +43,7 @@
 
             if($count['count(*)'] > 10) : ?>
                 <input name="categories" class="show-category" type="hidden" value="*">
-                <button name="showmore" class="btn showmore" value="4">Vis flere<i style="vertical-align: middle;" class="material-icons">keyboard_arrow_down</i></button>
+                <button name="showmore" class="btn showmore" value="10">Vis flere</button>
             <?php endif; ?>
         </div>
         </section>

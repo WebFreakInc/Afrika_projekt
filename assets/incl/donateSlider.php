@@ -23,7 +23,7 @@ if($donationsCheck < 1 && $sponsorCheck < 1){ // If rows less than 1, output err
   echo ('<ul class="donateInfo">');
   while($row = mysqli_fetch_assoc($donations)){ // While a row is a assoc array, take the "donation" and add it to total amount
       echo ('<li>');
-      echo ('<b>' . $row["name"] . '</b>: '. $row["donation"] . ' Kr.');
+      echo ('<b>' . $row["name"] . '</b>- '. $row["donation"] . ' Kr.');
       echo ('</li> ');
   }
   echo ('</ul>');
