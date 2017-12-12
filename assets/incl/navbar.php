@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-
 <!--- MAIN NAVIGATION START --->
-<<<<<<< HEAD
-      <nav class="sticky-top navbar navbar-expand-lg navbar-dark navbar-colors navbar-fix fixed-top">
-=======
       <nav class="navbar navbar-expand-lg navbar-dark navbar-colors navbar-fix fixed-top">
->>>>>>> 331503cd917ffa28e9f143ca82f6fdf21e3f5a0b
         <div class="container">
 
           <!--- NAV LOGO START --->

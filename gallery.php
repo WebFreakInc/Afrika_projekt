@@ -51,4 +51,5 @@
     </div>
 </section>
 
-<?php require ("assets/incl/footer.php")?>
+<?php require ("assets/incl/footer.php"); ?>
+<script src="assets/js/gallery.js"></script>
