@@ -109,14 +109,5 @@
         </script>
 </section>
 
-
-<!--DONATIONS-->
-
-<?php 
-include('assets/incl/donateSlider.php');
-?>
-
-
-
 <!--FOOTER, JAVASCRIPT & BODY (end)-->
 <?php include('assets/incl/footer.php'); ?>

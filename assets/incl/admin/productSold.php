@@ -17,7 +17,7 @@ if (!isset($_SESSION['loggedIn'])) {
         </select>
     </div>
     <div>
-        <label>Varenes Samlet Salgs Pris</label>
+        <label>Varenes <b>Samlet</b> Salgs Pris</label>
         <input required type="number" name="price" placeholder="Pris" class="form-control">
     </div>
     <div>

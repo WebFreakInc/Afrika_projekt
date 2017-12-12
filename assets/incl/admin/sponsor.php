@@ -6,7 +6,7 @@ if (!isset($_SESSION['loggedIn'])) {
 }
 ?>
 
-    <h3 class="text-center">Hvis sponsoren allerede findes, bliver det automatisk opdateret istedet for oprettet</h3>
+    <h3 class="text-center">Hvis <b>sponsor navnet</b> allerede findes, bliver det automatisk opdateret istedet for oprettet</h3>
     <form method="post" action="addSponsor.php" enctype="multipart/form-data" class="col-md-3 mx-auto">
 
         <div class="form-group">

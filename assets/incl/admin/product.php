@@ -8,7 +8,7 @@ if (!isset($_SESSION['loggedIn'])) {
 }
 ?>
 
-<h3 class="text-center">Hvis varenummeret allerede findes, bliver det automatisk opdateret istedet for oprettet</h3>
+<h3 class="text-center">Hvis <b>varenummeret</b> allerede findes, bliver det automatisk opdateret istedet for oprettet</h3>
 <form method="post" action="addProduct.php" enctype="multipart/form-data" class="col-md-3 mx-auto">
     <div>
         <label>Varens Navn</label>
