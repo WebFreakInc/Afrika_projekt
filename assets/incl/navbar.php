@@ -25,7 +25,7 @@
 <!--------------------------------------------------------------------------------------------
  -----------------------------------FIX TIL RIGTIG DOMÆNE!!!!!!-------------------------------
  -------------------------------------------------------------------------------------------->
-                <a class="nav-link" href="http://localhost:81/Afrika_projekt/index.php#livestream">LIVESTREAM</a>
+                <a class="nav-link" href="index.php#livestream">LIVESTREAM</a>
 
               </li>
               <li class="nav-item">
