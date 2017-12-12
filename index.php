@@ -10,6 +10,23 @@
     </picture>
 </section>
 
+<!-- MODAL TIL MP -->
+<div id="mpModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="assets/img/canvas.png" width="100%" alt="MobilePay" srcset="assets/img/canvas.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Luk</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <br>
 <br>
 <br>
