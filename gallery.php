@@ -25,7 +25,7 @@
             <?php
             $count = "SELECT count(*) FROM information_schema.columns WHERE table_name = 'products';";
             $count = $dbConnect->query($count)->fetch_assoc();
-            $query = "SELECT * FROM products LIMIT 10";
+            $query = "SELECT * FROM products";
             $result = $dbConnect->query($query);
 
             while ($row = $result->fetch_assoc()) : ?>
@@ -41,7 +41,7 @@
 
             <?php endwhile;
 
-            if($count['count(*)'] > 10) : ?>
+            if($count['count(*)'] > 100) : ?>
                 <input name="categories" class="show-category" type="hidden" value="*">
                 <button name="showmore" class="btn showmore" value="10">Vis flere</button>
             <?php endif; ?>

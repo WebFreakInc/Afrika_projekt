@@ -3,7 +3,7 @@ if(empty($_POST['category']) && empty($_POST['showmore'])) {
     return;
 }
 require 'dbInfo.php';
-$limit = $_POST['showmore']+10;
+$limit = $_POST['showmore']+100;
 if($_POST['category'] == "*") {
     $query = "SELECT * FROM products LIMIT $limit";
     $count = "SELECT count(*) FROM products;";
