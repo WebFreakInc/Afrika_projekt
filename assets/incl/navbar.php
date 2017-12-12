@@ -29,7 +29,7 @@
 
               </li>
               <li class="nav-item">
-                <a class="btn nav-btn" href="#" role="button">STØT</a>
+                <a class="btn nav-btn" href="#" data-toggle="modal" data-target="#mpModal" role="button">STØT</a>
               </li>
             </ul>
           </div>
