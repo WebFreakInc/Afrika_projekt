@@ -7,6 +7,6 @@ $(window).scroll(function() {
         $('#footer-main').css('margin-top', '0px');
     } else {
         $('.bottomSlider').addClass('fixed-bottom');
-        $('#footer-main').css('margin-top', '95px');
+        $('#footer-main').css('margin-top', '200px');
     }
 });
