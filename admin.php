@@ -42,7 +42,7 @@ if(isset($_POST["submit"])){ // Check if username and password is set
 if (isset($_SESSION['loggedIn'])) {
     echo '
 <div class="row">
-  <div class="col-md-3 mx-auto">
+  <div class="col-md-5 mx-auto">
   <h2>Indsæt Donation</h2>
     <form method="post" action="assets/incl/admin/addDonation.php">
         <div class="form-group">
@@ -58,26 +58,25 @@ if (isset($_SESSION['loggedIn'])) {
             <input required required type="text" name="donationComment" placeholder="Kommentar" class="form-control">
         </div>
         <button type="submit" class="btn btn-primary">Indsæt Donation</button>
-        <a href="assets/incl/admin/tableDonations.php" class="btn btn-secondary">Donations Oversigt</a>
+        <br>
+        <br>
+        <h4>Oversigter</h4>
+        <a href="assets/incl/admin/tableDonations.php" class="btn btn-info">Donations Oversigt</a>
+        <a href="assets/incl/admin/tableSponsors.php" class="btn btn-info">Sponsor
+         Oversigt</a>
+         <a href="assets/incl/admin/tableProducts.php" class="btn btn-info">Produkt Oversigt</a>
     </form>
     
     </div>
 
 
-    <section class="col-md-4 mx-auto">
+    <section class="col-md-3 mx-auto">
         <h4>Sponsore</h4>
-        <a href="assets/incl/admin/tableSponsors.php" class="btn btn-secondary">Sponsor
-         Oversigt</a>
-         <br>
-         <br>
-        <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Indsæt Eller Opdater Sponsor</a>
+        <a href="assets/incl/admin/sponsor.php" class="btn btn-secondary">Indsæt / Opdater Sponsor</a>
         <br>
          <br>
         <h4>Produkter</h4>
-        <a href="assets/incl/admin/tableProducts.php" class="btn btn-secondary">Produkt Oversigt</a>
-        </br>
-        </br>
-        <a href="assets/incl/admin/product.php" class="btn btn-secondary">Indsæt Eller Opdater Produkt</a>
+        <a href="assets/incl/admin/product.php" class="btn btn-secondary">Indsæt / Opdater Produkt</a>
         </br>
         </br>
         <a href="assets/incl/admin/productSold.php" class="btn btn-secondary">Produkt Solgt</a>

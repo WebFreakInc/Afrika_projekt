@@ -1,3 +1,6 @@
+<!--DONATIONS-->
+<?php include('assets/incl/donateSlider.php'); ?>
+
 <footer class="container-fluid text-center footer-text" style='background-color: #2C180F; height:200px' id="footer-main">
     <br>
     <p>
