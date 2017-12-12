@@ -3,7 +3,7 @@ if(empty($_POST['category']) && empty($_POST['showmore'])) {
     return;
 }
 require 'dbInfo.php';
-$limit = $_POST['showmore']+10;
+$limit = $_POST['showmore']+100;
 if($_POST['category'] == "*") {
     $query = "SELECT * FROM products LIMIT $limit";
     $count = "SELECT count(*) FROM products;";
@@ -29,7 +29,7 @@ $result = $dbConnect->query($query);
 
 <?php if($count['count(*)'] > $limit) : ?>
     <input name="category" class="show-category" type="hidden" value="<?=$_POST['category']?>">
-    <button name="showmore" class="btn showmore" value="<?=$limit?>">Vis flere <i style="vertical-align: middle;" class="material-icons">keyboard_arrow_down</i></button>
+    <button name="showmore" class="btn showmore" value="<?=$limit?>">Vis flere</button>
 <?php endif;
 ?>
 

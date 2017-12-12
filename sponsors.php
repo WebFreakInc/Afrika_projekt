@@ -23,12 +23,6 @@ while ($cardRow = $cardResult->fetch_array()) : ?>
     </div>
 </section>
 
-
-
-    <!--DONATIONS-->
-<?php include('assets/incl/donateSlider.php');?>
-
-
     <!--FOOTER CONTACT-->
 
 <?php include('assets/incl/footer.php'); ?>
